@@ -74,10 +74,12 @@ h3 {
 }
 
 .category-content {
-    display: block; /* Ensure JS has a starting point */
-    margin-top: 8px;
-    padding-left: 10px;
+    overflow: hidden;
+    max-height: 500px;     /* enough to show all items */
+    transition: max-height 0.3s ease;
+    margin-left: 10px;
 }
+
 
 /* rotate arrow when collapsed */
 .arrow {
