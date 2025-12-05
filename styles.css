@@ -98,12 +98,11 @@ h3 {
 /* Layout container */
 .layout {
     display: flex;
-    justify-content: flex-start;
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: flex-start;   /* THIS FIXES IT */
 }
-
 /* Sidebar */
 .sidebar {
     width: 250px;        /* Set sidebar width */
