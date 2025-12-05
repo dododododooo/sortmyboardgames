@@ -40,17 +40,25 @@ function generateTagButtons() {
 }
 
 function filterGames() {
-    if (selectedTags.size === 0) {
-        displayGames(allGames);
-        return;
-    }
+    const searchText = document.getElementById("search-bar").value.toLowerCase();
 
-    const filtered = allGames.filter(game =>
-        [...selectedTags].every(tag => game.tags.includes(tag))
-    );
+    let filtered = allGames.filter(game => {
+        // Tag filtering logic
+        const matchesTags =
+            selectedTags.size === 0 ||
+            [...selectedTags].every(tag => game.tags.includes(tag));
+
+        // Search logic (checks name + tags)
+        const matchesSearch =
+            game.name.toLowerCase().includes(searchText) ||
+            game.tags.some(tag => tag.toLowerCase().includes(searchText));
+
+        return matchesTags && matchesSearch;
+    });
 
     displayGames(filtered);
 }
+
 
 function displayGames(games) {
     const list = document.getElementById("game-list");
