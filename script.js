@@ -25,32 +25,43 @@ function generateTagButtons() {
 
 function createButtons(category, containerId) {
     const container = document.getElementById(containerId);
+    container.innerHTML = ""; // clear before adding new ones
+
     let tags = new Set();
 
+    // Collect all unique tags from each category
     allGames.forEach(game => {
-        game[category].forEach(tag => tags.add(tag));
+        if (Array.isArray(game[category])) {
+            game[category].forEach(tag => tags.add(tag));
+        }
     });
 
+    // Create a vertical checklist
     tags.forEach(tag => {
-        const btn = document.createElement("button");
-        btn.className = "tag-btn";
-        btn.textContent = tag;
+        const wrapper = document.createElement("label");
+        wrapper.className = "check-item";
 
-        // Unique identifier: category:tag
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+
         const key = category + ":" + tag;
 
-        btn.onclick = () => {
-            if (selectedTags.has(key)) {
-                selectedTags.delete(key);
-                btn.classList.remove("active");
-            } else {
+        checkbox.onchange = () => {
+            if (checkbox.checked) {
                 selectedTags.add(key);
-                btn.classList.add("active");
+            } else {
+                selectedTags.delete(key);
             }
             filterGames();
         };
 
-        container.appendChild(btn);
+        const text = document.createElement("span");
+        text.textContent = tag;
+
+        wrapper.appendChild(checkbox);
+        wrapper.appendChild(text);
+
+        container.appendChild(wrapper);
     });
 }
 
