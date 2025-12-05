@@ -80,6 +80,10 @@ h3 {
     margin-left: 10px;
 }
 
+.category-content.collapsed {
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
 
 /* rotate arrow when collapsed */
 .arrow {
