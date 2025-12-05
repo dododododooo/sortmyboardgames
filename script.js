@@ -25,20 +25,20 @@ function generateTagButtons() {
 
 function createButtons(category, containerId) {
     const container = document.getElementById(containerId);
-    container.innerHTML = ""; // clear before adding new ones
+    container.innerHTML = ""; 
 
     let tags = new Set();
 
-    // Collect all unique tags from each category
+    // collect unique tags
     allGames.forEach(game => {
         if (Array.isArray(game[category])) {
             game[category].forEach(tag => tags.add(tag));
         }
     });
 
-    // Create a vertical checklist
+    // create a vertical checkbox for each tag
     tags.forEach(tag => {
-        const wrapper = document.createElement("label");
+        const wrapper = document.createElement("div");
         wrapper.className = "check-item";
 
         const checkbox = document.createElement("input");
@@ -55,15 +55,17 @@ function createButtons(category, containerId) {
             filterGames();
         };
 
-        const text = document.createElement("span");
-        text.textContent = tag;
+        const label = document.createElement("label");
+        label.textContent = tag;
+        label.style.marginLeft = "8px";
 
         wrapper.appendChild(checkbox);
-        wrapper.appendChild(text);
+        wrapper.appendChild(label);
 
         container.appendChild(wrapper);
     });
 }
+
 
 
 // Filter by selected tags AND search text
