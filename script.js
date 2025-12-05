@@ -117,7 +117,7 @@ function toggleCategory(containerId) {
 
 
 
-
+//
 
 // Render the list of games
 function displayGames(games) {
