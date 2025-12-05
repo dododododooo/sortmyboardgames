@@ -101,19 +101,18 @@ function filterGames() {
 // Makes the boxes collapsable
 function toggleCategory(containerId) {
     const content = document.getElementById(containerId);
-    const header = content.previousElementSibling; 
+    const header = content.previousElementSibling;
     const arrow = header.querySelector(".arrow");
 
     if (content.classList.contains("collapsed")) {
-        // Expand
         content.classList.remove("collapsed");
         arrow.textContent = "▾";
     } else {
-        // Collapse
         content.classList.add("collapsed");
         arrow.textContent = "▸";
     }
 }
+
 
 
 
