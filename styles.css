@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 40px 0 0 0;   /* NO MORE HORIZONTAL AUTO */
+    margin: 20px 0 0 0;   /* no horizontal centering */
     padding: 0 20px;
-    width: 100%;          /* important for full-width layouts */
+    width: 100%;          /* allow full screen width */
+    max-width: none;      /* override old 700px limit */
 }
-
 
 header, h1 {
     text-align: center;
