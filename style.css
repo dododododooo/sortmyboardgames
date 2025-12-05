@@ -75,15 +75,15 @@ h3 {
 
 .category-content {
     overflow: hidden;
-    max-height: 500px;     /* enough to show all items */
-    transition: max-height 0.3s ease;
+    max-height: 500px;               /* expanded */
+    transition: max-height 0.35s ease;
     margin-left: 10px;
 }
 
 .category-content.collapsed {
-    max-height: 0;
-    transition: max-height 0.3s ease;
+    max-height: 0 !important;        /* collapsed */
 }
+
 
 /* rotate arrow when collapsed */
 .arrow {
