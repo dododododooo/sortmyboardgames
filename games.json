@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Catan",
+        "tags": ["strategy", "trading", "3-4 players", "60-90 min"]
+    },
+    {
+        "name": "Pandemic",
+        "tags": ["co-op", "strategy", "2-4 players", "45 min"]
+    },
+    {
+        "name": "Azul",
+        "tags": ["abstract", "2-4 players", "30-45 min"]
+    }
+]
