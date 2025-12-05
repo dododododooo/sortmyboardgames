@@ -29,8 +29,9 @@ body {
 
 /* Checklist styling */
 .check-item {
-    display: flex;
+    display: flex;           /* align checkbox + text */
     align-items: center;
+    width: 100%;             /* force full-width row */
     margin: 6px 0;
     cursor: pointer;
     font-size: 16px;
