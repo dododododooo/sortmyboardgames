@@ -16,55 +16,72 @@ async function loadGames() {
 
 // Create tag buttons based on all tags in the data
 function generateTagButtons() {
-  const tagContainer = document.getElementById("tag-container");
-  tagContainer.innerHTML = ""; // clear if re-run
-
-  let allTags = new Set();
-
-  allGames.forEach(game => {
-    game.tags.forEach(tag => allTags.add(tag));
-  });
-
-  allTags.forEach(tag => {
-    const btn = document.createElement("button");
-    btn.className = "tag-btn";
-    btn.textContent = tag;
-
-    btn.onclick = () => {
-      if (selectedTags.has(tag)) {
-        selectedTags.delete(tag);
-        btn.classList.remove("active");
-      } else {
-        selectedTags.add(tag);
-        btn.classList.add("active");
-      }
-      filterGames();
-    };
-
-    tagContainer.appendChild(btn);
-  });
+    createButtons("genre", "genre-container");
+    createButtons("players", "players-container");
+    createButtons("time", "time-container");
+    createButtons("type", "type-container");
 }
+
+function createButtons(category, containerId) {
+    const container = document.getElementById(containerId);
+    let tags = new Set();
+
+    allGames.forEach(game => {
+        game[category].forEach(tag => tags.add(tag));
+    });
+
+    tags.forEach(tag => {
+        const btn = document.createElement("button");
+        btn.className = "tag-btn";
+        btn.textContent = tag;
+
+        // Unique identifier: category:tag
+        const key = category + ":" + tag;
+
+        btn.onclick = () => {
+            if (selectedTags.has(key)) {
+                selectedTags.delete(key);
+                btn.classList.remove("active");
+            } else {
+                selectedTags.add(key);
+                btn.classList.add("active");
+            }
+            filterGames();
+        };
+
+        container.appendChild(btn);
+    });
+}
+
 
 // Filter by selected tags AND search text
 function filterGames() {
-  const searchInput = document.getElementById("search-bar");
-  const searchText = searchInput ? searchInput.value.toLowerCase() : "";
+    const searchText = document.getElementById("search-bar").value.toLowerCase();
 
-  const filtered = allGames.filter(game => {
-    // Tag logic
-    const matchesTags =
-      selectedTags.size === 0 ||
-      [...selectedTags].every(tag => game.tags.includes(tag));
+    const filtered = allGames.filter(game => {
 
-    // Search logic (name + tags)
-    const matchesSearch =
-      game.name.toLowerCase().includes(searchText) ||
-      game.tags.some(tag => tag.toLowerCase().includes(searchText));
+        // Tag/category filtering
+        const matchesTags = [...selectedTags].every(key => {
+            const [category, value] = key.split(":");
+            return game[category].includes(value);
+        });
 
-    return matchesTags && matchesSearch;
-  });
+        // Search filtering
+        const matchesSearch =
+            game.name.toLowerCase().includes(searchText) ||
+            Object.keys(game).some(cat => {
+                if (Array.isArray(game[cat])) {
+                    return game[cat].some(v =>
+                        v.toLowerCase().includes(searchText)
+                    );
+                }
+                return false;
+            });
 
-  displayGames(filtered);
+        return matchesTags && matchesSearch;
+    });
+
+    displayGames(filtered);
 }
 
 // Render the list of games
