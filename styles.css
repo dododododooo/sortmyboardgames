@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 40px auto;
+    margin: 40px 0 0 0;   /* no more centering */
     padding: 0 20px;
 }
 
