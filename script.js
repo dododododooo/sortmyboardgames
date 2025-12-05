@@ -98,6 +98,22 @@ function filterGames() {
     displayGames(filtered);
 }
 
+// Makes the boxes collapsable
+function toggleCategory(containerId) {
+    const content = document.getElementById(containerId);
+    const header = content.previousElementSibling; 
+    const arrow = header.querySelector(".arrow");
+
+    if (content.style.display === "none") {
+        content.style.display = "block";
+        arrow.textContent = "▾";
+    } else {
+        content.style.display = "none";
+        arrow.textContent = "▸";
+    }
+}
+
+
 // Render the list of games
 function displayGames(games) {
   const list = document.getElementById("game-list");
