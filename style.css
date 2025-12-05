@@ -53,3 +53,11 @@ h3 {
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
+#genre-container,
+#players-container,
+#time-container,
+#type-container {
+    display: flex;
+    flex-direction: column;   /* <--- STACK VERTICALLY */
+}
