@@ -114,15 +114,6 @@ h3 {
     margin-left: 20px;     /* shifts layout left */
     margin-right: 0;
 }
-/*
-.layout {
-    display: flex;
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: flex-start;   /* THIS FIXES IT */
-}
-*/
 
 /* Sidebar */
 .sidebar {
