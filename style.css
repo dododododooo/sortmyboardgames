@@ -75,20 +75,26 @@ h3 {
 
 .category-content {
     overflow: hidden;
-    max-height: 500px;               /* expanded */
+    max-height: 500px;        /* expanded height */
     transition: max-height 0.35s ease;
     margin-left: 10px;
 }
 
+/* collapsed state */
 .category-content.collapsed {
-    max-height: 0 !important;        /* collapsed */
+    max-height: 0;
 }
 
-
-/* rotate arrow when collapsed */
+/* arrow rotation */
 .arrow {
-    font-size: 18px;
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
+
+.arrow.collapsed-arrow {
+    transform: rotate(-90deg);
+}
+
 
 
 
