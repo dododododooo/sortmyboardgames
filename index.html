@@ -17,17 +17,38 @@
 >
 
 <p>Select tags to filter games:</p>
-<h3>Genre</h3>
-<div id="genre-container"></div>
+<div class="filter-category">
+    <div class="category-header" onclick="toggleCategory('genre-container')">
+        <span>Genre</span>
+        <span class="arrow">▾</span>
+    </div>
+    <div id="genre-container" class="category-content"></div>
+</div>
 
-<h3>Players</h3>
-<div id="players-container"></div>
+<div class="filter-category">
+    <div class="category-header" onclick="toggleCategory('players-container')">
+        <span>Players</span>
+        <span class="arrow">▾</span>
+    </div>
+    <div id="players-container" class="category-content"></div>
+</div>
 
-<h3>Play Time</h3>
-<div id="time-container"></div>
+<div class="filter-category">
+    <div class="category-header" onclick="toggleCategory('time-container')">
+        <span>Play Time</span>
+        <span class="arrow">▾</span>
+    </div>
+    <div id="time-container" class="category-content"></div>
+</div>
 
-<h3>Type</h3>
-<div id="type-container"></div>
+<div class="filter-category">
+    <div class="category-header" onclick="toggleCategory('type-container')">
+        <span>Type</span>
+        <span class="arrow">▾</span>
+    </div>
+    <div id="type-container" class="category-content"></div>
+</div>
+
 
 <h2>Games</h2>
 <ul id="game-list"></ul>
