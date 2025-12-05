@@ -6,6 +6,7 @@ async function loadGames() {
   try {
     const response = await fetch("games.json");
     allGames = await response.json();
+    console.log("Loaded games:", allGames);
 
     generateTagButtons();
     displayGames(allGames);
