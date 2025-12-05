@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+#tag-container {
+    margin-bottom: 20px;
+}
+
+.tag-btn {
+    padding: 8px 14px;
+    margin: 4px;
+    border: 1px solid #333;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.tag-btn.active {
+    background-color: #333;
+    color: white;
+}
+
+#game-list li {
+    padding: 6px 0;
+}
