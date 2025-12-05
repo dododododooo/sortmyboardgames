@@ -104,14 +104,17 @@ function toggleCategory(containerId) {
     const header = content.previousElementSibling; 
     const arrow = header.querySelector(".arrow");
 
-    if (content.style.display === "none") {
-        content.style.display = "block";
+    if (content.classList.contains("collapsed")) {
+        // Expand
+        content.classList.remove("collapsed");
         arrow.textContent = "▾";
     } else {
-        content.style.display = "none";
+        // Collapse
+        content.classList.add("collapsed");
         arrow.textContent = "▸";
     }
 }
+
 
 
 // Render the list of games
