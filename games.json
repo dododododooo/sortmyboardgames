@@ -1,14 +1,23 @@
 [
     {
         "name": "Catan",
-        "tags": ["strategy", "trading", "3-4 players", "60-90 min"]
+        "genre": ["strategy"],
+        "players": ["3-4"],
+        "time": ["60-90"],
+        "type": ["competitive"]
     },
     {
         "name": "Pandemic",
-        "tags": ["co-op", "strategy", "2-4 players", "45 min"]
+        "genre": ["strategy"],
+        "players": ["2-4"],
+        "time": ["45"],
+        "type": ["co-op"]
     },
     {
         "name": "Azul",
-        "tags": ["abstract", "2-4 players", "30-45 min"]
+        "genre": ["abstract"],
+        "players": ["2-4"],
+        "time": ["30-45"],
+        "type": ["competitive"]
     }
 ]
