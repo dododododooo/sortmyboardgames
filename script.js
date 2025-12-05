@@ -104,14 +104,17 @@ function toggleCategory(containerId) {
     const header = content.previousElementSibling;
     const arrow = header.querySelector(".arrow");
 
+    console.log("toggle fired for:", containerId);
+
     if (content.classList.contains("collapsed")) {
         content.classList.remove("collapsed");
-        arrow.textContent = "▾";
+        arrow.classList.remove("collapsed-arrow");
     } else {
         content.classList.add("collapsed");
-        arrow.textContent = "▸";
+        arrow.classList.add("collapsed-arrow");
     }
 }
+
 
 
 
