@@ -168,7 +168,6 @@ function showGameDetails(game) {
         <div class="game-detail-card">
             <div class="detail-header">
 
-                <!-- GAME IMAGE -->
                 <img 
                     src="${game.image || ''}" 
                     alt="${game.name} cover" 
@@ -178,7 +177,9 @@ function showGameDetails(game) {
                 <div>
                     <h2>${game.name}</h2>
 
-                    <p><strong>Description:</strong> ${game.description || "No description available."}</p>
+                    <p class="description-text">
+                        <strong>Description:</strong> ${game.description || "No description available."}
+                    </p>
 
                     <div class="detail-stats">
                         <p><strong>Players:</strong> ${game.players_bgg || "N/A"}</p>
@@ -195,6 +196,7 @@ function showGameDetails(game) {
         </div>
     `;
 }
+
 
 
 
