@@ -1,123 +1,45 @@
+/* =========================================
+   Base Layout + Typography
+========================================= */
+
 body {
     font-family: Arial, sans-serif;
-    margin: 20px 0 0 0;   /* no horizontal centering */
+    margin: 20px 0 0 0;
     padding: 0 20px;
-    width: 100%;          /* allow full screen width */
-    max-width: none;      /* override old 700px limit */
+    width: 100%;
+    max-width: none;
+    background: #fafafa;
 }
 
-header, h1 {
+h1, header {
     text-align: center;
 }
 
 #search-bar {
     display: block;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
     margin: 0 auto 30px auto;
-}
-
-#tag-container {
-    margin-bottom: 20px;
-}
-
-.tag-btn {
-    padding: 8px 14px;
-    margin: 4px;
-    border: 1px solid #333;
-    background: white;
-    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid #ccc;
     border-radius: 6px;
 }
 
-.tag-btn.active {
-    background-color: #333;
-    color: white;
-}
-
-#game-list li {
-    padding: 6px 0;
-}
-
-/* Checklist styling */
-.check-item {
-    display: flex;           /* align checkbox + text */
-    align-items: center;
-    width: 100%;             /* force full-width row */
-    margin: 6px 0;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.check-item input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.check-item:hover {
-    color: #333;
-    font-weight: bold;
-}
-
-h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.filter-category {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-}
-
-.category-header {
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 6px 0;
-}
-
-.category-header:hover {
-    color: #333;
-}
-
-.category-content {
-    overflow: hidden;
-    max-height: 500px;        /* expanded height */
-    transition: max-height 0.35s ease;
-    margin-left: 10px;
-}
-
-/* collapsed state */
-.category-content.collapsed {
-    max-height: 0;
-}
-
-/* arrow rotation */
-.arrow {
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-.arrow.collapsed-arrow {
-    transform: rotate(-90deg);
-}
-
-/* Layout container */
+/* =========================================
+   Layout Structure
+========================================= */
 
 .layout {
     display: flex;
     gap: 30px;
     max-width: 1200px;
-    margin-left: 20px;     /* shifts layout left */
-    margin-right: 0;
+    margin: 0 auto;
 }
 
-/* Sidebar */
+/* Sidebar styling */
 .sidebar {
-    width: 250px;        /* Set sidebar width */
+    width: 260px;
     flex-shrink: 0;
     border-right: 1px solid #ddd;
     padding-right: 20px;
@@ -128,11 +50,88 @@ h3 {
     flex-grow: 1;
 }
 
+#game-list li {
+    padding: 8px 0;
+    font-size: 18px;
+}
 
+/* =========================================
+   Filter Category (Collapsible Sections)
+========================================= */
+
+.filter-category {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 0;
+}
+
+.category-header:hover {
+    color: #333;
+}
+
+.arrow {
+    transition: transform 0.25s ease;
+}
+
+.arrow.collapsed-arrow {
+    transform: rotate(-90deg);
+}
+
+/* Collapsible content area */
+.category-content {
+    margin-left: 12px;
+    overflow: hidden;
+    max-height: 500px;
+    transition: max-height 0.35s ease;
+}
+
+.category-content.collapsed {
+    max-height: 0;
+}
+
+/* =========================================
+   Checkbox Tag Styling
+========================================= */
+
+.check-item {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.check-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.check-item:hover label {
+    font-weight: bold;
+    color: #333;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* Make each tag category stack vertically */
 #genre-container,
 #players-container,
 #time-container,
 #type-container {
     display: flex;
-    flex-direction: column;   /* <--- STACK VERTICALLY */
+    flex-direction: column;
 }
