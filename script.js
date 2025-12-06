@@ -167,8 +167,8 @@ function showGameDetails(game) {
     panel.innerHTML = `
         <div class="game-detail-card">
             <div class="detail-header">
-                
-                <!-- IMAGE DISPLAY -->
+
+                <!-- GAME IMAGE -->
                 <img 
                     src="${game.image || ''}" 
                     alt="${game.name} cover" 
@@ -177,10 +177,13 @@ function showGameDetails(game) {
 
                 <div>
                     <h2>${game.name}</h2>
+
+                    <p><strong>Description:</strong> ${game.description || "No description available."}</p>
+
                     <div class="detail-stats">
-                        <p><strong>Players:</strong> ${game.players.join(", ")}</p>
-                        <p><strong>Play Time:</strong> ${game.time.join(", ")}</p>
-                        <p><strong>Weight:</strong> ${game.weight.join(", ")}</p>
+                        <p><strong>Players:</strong> ${game.players_bgg || "N/A"}</p>
+                        <p><strong>Play Time:</strong> ${game.time_bgg || "N/A"}</p>
+                        <p><strong>Weight:</strong> ${game.weight_bgg || "N/A"}</p>
                         <p><strong>Type:</strong> ${game.type.join(", ")}</p>
                     </div>
                 </div>
@@ -192,6 +195,7 @@ function showGameDetails(game) {
         </div>
     `;
 }
+
 
 
 /* ============================================================
