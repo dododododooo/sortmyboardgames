@@ -211,13 +211,25 @@ label {
 }
 
 /* Fixed-width details panel */
-#game-details {
+/*#game-details {
     width: 350px;
     flex-shrink: 0;
     max-height: 90vh;
     overflow-y: auto;
-    position: sticky;
     top: 20px;
+}
+*/
+
+#game-details {
+    flex: 1;
+    max-width: none;
+    position: sticky;
+    padding: 20px;
+}
+
+.game-detail-card {
+    max-width: 600px;
+    margin: 0;
 }
 
 
