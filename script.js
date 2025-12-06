@@ -2,7 +2,18 @@ let allGames = [];
 let selectedTags = new Set();
 
 /* ============================================================
-   FIXED TAG VALUES (your list)
+   NORMALIZE NAME → MATCHING .webp FILE
+============================================================ */
+function normalizeFileName(name) {
+    return name
+        .toLowerCase()                  // lowercase everything
+        .replace(/[^a-z0-9 ]/g, "")     // remove punctuation/symbols
+        .trim()                         // remove edge spaces
+        .replace(/\s+/g, "_") + ".webp"; // spaces → underscores
+}
+
+/* ============================================================
+   FIXED TAG VALUES
 ============================================================ */
 const TAG_OPTIONS = {
     genre: [
@@ -33,7 +44,7 @@ async function loadGames() {
 }
 
 /* ============================================================
-   CREATE CHECKBOXES FOR EACH CATEGORY
+   CREATE TAG CHECKBOXES
 ============================================================ */
 function generateTagButtons() {
     createButtonsFromList("genre", "genre-container");
@@ -83,28 +94,23 @@ function filterGames() {
     const searchText = document.getElementById("search-bar").value.toLowerCase();
 
     const filtered = allGames.filter(game => {
-        // Match tags
         const matchesTags = (() => {
-             if (selectedTags.size === 0) return true;
-         
-             // Group selected tags by category
-             const groups = {};
-             selectedTags.forEach(key => {
-                 const [category, value] = key.split(":");
-                 if (!groups[category]) groups[category] = [];
-                 groups[category].push(value);
-             });
-         
-             // For each category, game must match AT LEAST one selected tag (OR logic)
-             return Object.entries(groups).every(([category, values]) => {
-                 return values.some(v => {
-                     return Array.isArray(game[category]) && game[category].includes(v);
-                 });
-             });
-         })();
+            if (selectedTags.size === 0) return true;
 
+            const groups = {};
+            selectedTags.forEach(key => {
+                const [category, value] = key.split(":");
+                if (!groups[category]) groups[category] = [];
+                groups[category].push(value);
+            });
 
-        // Match text search
+            return Object.entries(groups).every(([category, values]) => {
+                return values.some(v => {
+                    return Array.isArray(game[category]) && game[category].includes(v);
+                });
+            });
+        })();
+
         const matchesSearch =
             game.name.toLowerCase().includes(searchText) ||
             Object.keys(game).some(cat => {
@@ -123,7 +129,7 @@ function filterGames() {
 }
 
 /* ============================================================
-   COLLAPSIBLE CATEGORY HEADERS
+   COLLAPSIBLE CATEGORY SECTIONS
 ============================================================ */
 function toggleCategory(containerId) {
     const content = document.getElementById(containerId);
@@ -140,7 +146,7 @@ function toggleCategory(containerId) {
 }
 
 /* ============================================================
-   DISPLAY GAMES
+   DISPLAY GAME LIST
 ============================================================ */
 function displayGames(games) {
     const list = document.getElementById("game-list");
@@ -158,20 +164,24 @@ function displayGames(games) {
 }
 
 /* ============================================================
-   DISPLAY QUICK GAME INFORMATION
+   SHOW GAME DETAILS (updated for .webp)
 ============================================================ */
-
 function showGameDetails(game) {
     const panel = document.getElementById("game-details");
+
+    // Build normalized filename for the image
+    const fileName = normalizeFileName(game.name);
+    const imagePath = "thumbnails/" + fileName;
 
     panel.innerHTML = `
         <div class="game-detail-card">
             <div class="detail-header">
 
                 <img 
-                    src="${game.image || ''}" 
+                    src="${imagePath}" 
                     alt="${game.name} cover" 
                     class="detail-thumb"
+                    onerror="this.src='thumbnails/no_image.webp'"
                 >
 
                 <div>
@@ -197,11 +207,8 @@ function showGameDetails(game) {
     `;
 }
 
-
-
-
 /* ============================================================
-   INITIALIZE ON PAGE LOAD
+   ON PAGE LOAD
 ============================================================ */
 window.addEventListener("DOMContentLoaded", () => {
     loadGames();
