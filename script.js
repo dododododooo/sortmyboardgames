@@ -84,10 +84,25 @@ function filterGames() {
 
     const filtered = allGames.filter(game => {
         // Match tags
-        const matchesTags = [...selectedTags].every(key => {
-            const [category, value] = key.split(":");
-            return Array.isArray(game[category]) && game[category].includes(value);
-        });
+        const matchesTags = (() => {
+             if (selectedTags.size === 0) return true;
+         
+             // Group selected tags by category
+             const groups = {};
+             selectedTags.forEach(key => {
+                 const [category, value] = key.split(":");
+                 if (!groups[category]) groups[category] = [];
+                 groups[category].push(value);
+             });
+         
+             // For each category, game must match AT LEAST one selected tag (OR logic)
+             return Object.entries(groups).every(([category, values]) => {
+                 return values.some(v => {
+                     return Array.isArray(game[category]) && game[category].includes(v);
+                 });
+             });
+         })();
+
 
         // Match text search
         const matchesSearch =
