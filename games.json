@@ -1,1742 +1,830 @@
 [
-  {
+{
     "name": "7 Wonders",
-    "genre": [
-      "deck builder",
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["deck builder", "strategy", "family"],
+    "players": ["3", "4", "5", "6", "7"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg",
     "players_bgg": "3-7",
     "time_bgg": "30-45",
     "weight_bgg": "2-3",
     "description": "7 Wonders is a deck builder, strategy, family game for 3-7 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "7 Wonders Duel",
-    "genre": [
-      "deck builder",
-      "strategy"
-    ],
-    "players": [
-      "2"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["deck builder", "strategy"],
+    "players": ["2"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/zdagMskTF7wJBPjX74XsRw__original/img/Ju836WNSaW7Mab9Vjq2TJ_FqhWQ=/0x0/filters:format(jpeg)/pic2576399.jpg",
     "players_bgg": "2",
     "time_bgg": "30-45",
     "weight_bgg": "2-3",
     "description": "7 Wonders Duel is a deck builder, strategy game for 2 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "A Little Wordy",
-    "genre": [
-      "deduction",
-      "family",
-      "wordy"
-    ],
-    "players": [
-      "2"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["deduction", "family", "wordy"],
+    "players": ["2"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/vCyHmXq8ZO7GjdRCDoU8Sw__original/img/AXQOetl6MFBpENDQQFWeGFDzsCI=/0x0/filters:format(jpeg)/pic6451120.jpg",
     "players_bgg": "2",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "A Little Wordy is a deduction, family, wordy game for 2 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Aeon's End",
-    "genre": [
-      "deck builder",
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["deck builder", "strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["co-op"],
+    "time": ["45-60"],
     "image": "",
     "players_bgg": "2-4",
     "time_bgg": "45-60",
     "weight_bgg": "2-3",
     "description": "Aeon's End is a deck builder, strategy game for 2-4 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Animated",
-    "genre": [
-      "family",
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["family", "strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/E8DWivX4mn0xbzPNp6vfFA__original/img/5TqROlaSlez1t2259ouTLZju1E8=/0x0/filters:format(png)/pic7400365.png",
     "players_bgg": "2-5",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Animated is a family, strategy game for 2-5 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Azul",
-    "genre": [
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__original/img/AkbtYVc6xXJF3c9EUrakklcclKw=/0x0/filters:format(png)/pic6973671.png",
     "players_bgg": "2-4",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Azul is a strategy, family game for 2-4 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Carcassonne",
-    "genre": [
-      "area control",
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["area control", "strategy", "family"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__original/img/bP18m_PYjyFOv1IBGgMOteQUneA=/0x0/filters:format(jpeg)/pic8621446.jpg",
     "players_bgg": "2-5",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Carcassonne is a area control, strategy, family game for 2-5 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Cascadia",
-    "genre": [
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__original/img/B374C04Eip7fmQBGJzgiOTp-jyQ=/0x0/filters:format(jpeg)/pic5100691.jpg",
     "players_bgg": "2-4",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Cascadia is a strategy game for 2-4 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Catan",
-    "genre": [
-      "strategy",
-      "area control",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "60-120"
-    ],
+    "genre": ["strategy", "area control", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["60-120"],
     "image": "",
     "players_bgg": "2-4",
     "time_bgg": "60-120",
     "weight_bgg": "2-3",
     "description": "Catan is a strategy, area control, family game for 2-4 players that typically takes 60-120 minutes."
   },
-  {
+{
     "name": "Chameleon",
-    "genre": [
-      "bluffing",
-      "family",
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["bluffing", "family", "party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/-uBkiypUVyRKxNuOI_-ZpQ__original/img/Y_12y74FIaAXMfiQ0tFhpfkrN1U=/0x0/filters:format(png)/pic3552344.png",
     "players_bgg": "2-7+",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Chameleon is a bluffing, family, party game for 2-7+ players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Chess",
-    "genre": [
-      "strategy"
-    ],
-    "players": [
-      "2"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["strategy"],
+    "players": ["2"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/0_RWFMNapgr5yCrdhvGi_Q__original/img/c4SiusUQuh7uc0k6HDwIXYsEc8M=/0x0/filters:format(jpeg)/pic8785991.jpg",
     "players_bgg": "2",
     "time_bgg": "30-45",
     "weight_bgg": "2-3",
     "description": "Chess is a strategy game for 2 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Codenames",
-    "genre": [
-      "deduction",
-      "party",
-      "family",
-      "wordy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "teams"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["deduction", "party", "family", "wordy"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["teams"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__original/img/Id-jjIer_61ZbvI2_RVRCeBZFY4=/0x0/filters:format(jpeg)/pic8907965.jpg",
     "players_bgg": "2-7+",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Codenames is a deduction, party, family, wordy game for 2-7+ players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Destinies",
-    "genre": [
-      "role-playing"
-    ],
-    "players": [
-      "2",
-      "3"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "60-120"
-    ],
+    "genre": ["role-playing"],
+    "players": ["2", "3"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["60-120"],
     "image": "https://cf.geekdo-images.com/oaD1ZQ3yGj6lacLdtqgdnQ__original/img/LJXy5--WfYNypO-Xd7nhkzU5Xzs=/0x0/filters:format(png)/pic5558118.png",
     "players_bgg": "2-3",
     "time_bgg": "60-120",
     "weight_bgg": "2-3",
     "description": "Destinies is a role-playing game for 2-3 players that typically takes 60-120 minutes."
   },
-  {
+{
     "name": "Dominion",
-    "genre": [
-      "deck builder",
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["deck builder", "strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__original/img/96COuakNiLRrjDLc1sM4Zxsw4WE=/0x0/filters:format(jpeg)/pic394356.jpg",
     "players_bgg": "2-4",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Dominion is a deck builder, strategy, family game for 2-4 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Doomlings",
-    "genre": [
-      "luck based",
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/v3c8Z12rTB_0lHndnnKZIw__original/img/HnfGCJi2Z2rMIVnCRip4DU3LnIs=/0x0/filters:format(jpeg)/pic8493673.jpg",
     "players_bgg": "2-6",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Doomlings is a luck based, party game for 2-6 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Ecos",
-    "genre": [
-      "strategy",
-      "area control"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["strategy", "area control"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/MyqAq5_DX27gVQE192gZ4g__original/img/R9jnDzY4JIxQ7H7hmTGr3rSBiAA=/0x0/filters:format(png)/pic4720237.png",
     "players_bgg": "2-6",
     "time_bgg": "45-60",
     "weight_bgg": "2-3",
     "description": "Ecos is a strategy, area control game for 2-6 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Everdell",
-    "genre": [
-      "strategy",
-      "worker placement",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["strategy", "worker placement", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/fjE7V5LNq31yVEW_yuqI-Q__original/img/HQ1ti16wT9lqja5_h3gUfHUIcVI=/0x0/filters:format(png)/pic3918905.png",
     "players_bgg": "2-4",
     "time_bgg": "45-60",
     "weight_bgg": "2-3",
     "description": "Everdell is a strategy, worker placement, family game for 2-4 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Exploding Kittens",
-    "genre": [
-      "luck based",
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/_9v_15rJjapltOr0I74uJQ__original/img/5-sylqMMDS3r8RelWDrcNQJiUSE=/0x0/filters:format(png)/pic9005066.png",
     "players_bgg": "2-5",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Exploding Kittens is a luck based, party game for 2-5 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Flip 7",
-    "genre": [
-      "luck based",
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
     "players_bgg": "2-6",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Flip 7 is a luck based, party game for 2-6 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Flourish",
-    "genre": [
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/SDe1rl_G4n8rrX267OKyPQ__original/img/EY4l7RtG9plwACGJdKkWYwJL-yw=/0x0/filters:format(png)/pic5659471.png",
     "players_bgg": "2-4",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Flourish is a strategy, family game for 2-4 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Forbidden Desert",
-    "genre": [
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["2-3"],
+    "type": ["co-op"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/OU26qQZoHJodxSFKiR5IzA__original/img/8smpJMuHROyrbu8FP-EOLXjEi0w=/0x0/filters:format(jpeg)/pic1528722.jpg",
     "players_bgg": "2-5",
     "time_bgg": "45-60",
     "weight_bgg": "2-3",
     "description": "Forbidden Desert is a strategy game for 2-5 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Hanabi",
-    "genre": [
-      "deduction",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["deduction", "family"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["co-op"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/JDVksMwfcqoem1k_xtZrOA__original/img/5vNHZiTEhK4aRDuGXv5KImp9cmQ=/0x0/filters:format(jpeg)/pic2007286.jpg",
     "players_bgg": "2-5",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Hanabi is a deduction, family game for 2-5 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Happy Little Dinosaurs",
-    "genre": [
-      "luck based",
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/aajSbzY8vkZG_-aJdKJh_g__original/img/QKPga21F_5U6PRBPjyl0iB5PRgY=/0x0/filters:format(png)/pic8286790.png",
     "players_bgg": "2-4",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Happy Little Dinosaurs is a luck based, party game for 2-4 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Happy Salmon",
-    "genre": [
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/qiPO300rG73UqxJvpUe3og__original/img/r-ZepVlPDZRwmxcWJgLA4GpaXfY=/0x0/filters:format(jpeg)/pic7354069.jpg",
     "players_bgg": "2-7+",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Happy Salmon is a party game for 2-7+ players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Harry Potter: Hogwarts Battle",
-    "genre": [
-      "deck builder",
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["deck builder", "strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["co-op"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/ugYBvYxyWyx8_BqaFKZlGw__original/img/7ifajkbPyvyn8GUavbNOjWZbNYU=/0x0/filters:format(jpeg)/pic3518231.jpg",
     "players_bgg": "2-4",
     "time_bgg": "45-60",
     "weight_bgg": "2-3",
     "description": "Harry Potter: Hogwarts Battle is a deck builder, strategy game for 2-4 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Herd Mentality",
-    "genre": [
-      "party",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/85hYrpSl9Aoh2TgMf4CiDA__original/img/QPcr2EfpZjJzvNGjfQZwRbs-kMo=/0x0/filters:format(png)/pic5509026.png",
     "players_bgg": "2-7+",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Herd Mentality is a party, family game for 2-7+ players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Here to Slay",
-    "genre": [
-      "strategy",
-      "luck based"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["strategy", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/ozUv3be9fcf28tJk30bNow__original/img/digC3cWVMhV6rlcE0AEcoVkmVI0=/0x0/filters:format(jpeg)/pic5181432.jpg",
     "players_bgg": "2-6",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Here to Slay is a strategy, luck based game for 2-6 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "HISTORY",
-    "genre": [
-      "trivia",
-      "family",
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["trivia", "family", "party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "",
     "players_bgg": "2-7+",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "HISTORY is a trivia, family, party game for 2-7+ players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Hues and Cues",
-    "genre": [
-      "party",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__original/img/i8nlw_c9CYgJMzixadYVh7GTTPc=/0x0/filters:format(jpeg)/pic5390676.jpg",
     "players_bgg": "2-7+",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Hues and Cues is a party, family game for 2-7+ players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Legacy of Dragonholt",
-    "genre": [
-      "role-playing",
-      "legacy"
-    ],
-    "players": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "60-120"
-    ],
+    "genre": ["role-playing", "legacy"],
+    "players": ["1", "2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["co-op"],
+    "time": ["60-120"],
     "image": "https://cf.geekdo-images.com/RAdppZ1_dduI7vnJi3mtZQ__original/img/evc4kIOTJl3PEC1opktfjRNZtzI=/0x0/filters:format(jpeg)/pic3754388.jpg",
     "players_bgg": "1-4",
     "time_bgg": "60-120",
     "weight_bgg": "1-2",
     "description": "Legacy of Dragonholt is a role-playing, legacy game for 1-4 players that typically takes 60-120 minutes."
   },
-  {
+{
     "name": "Legend of the Five Rings",
-    "genre": [
-      "strategy",
-      "bluffing"
-    ],
-    "players": [
-      "2"
-    ],
-    "weight": [
-      "3-4"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["strategy", "bluffing"],
+    "players": ["2"],
+    "weight": ["3-4"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "",
     "players_bgg": "2",
     "time_bgg": "45-60",
     "weight_bgg": "3-4",
     "description": "Legend of the Five Rings is a strategy, bluffing game for 2 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "May Contain Butts",
-    "genre": [
-      "party",
-      "luck based"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["party", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/9VQnCEIvUOuXgZoqSEeQLQ__original/img/24Vbj6UVeQ-74IufZUZwGmRemAc=/0x0/filters:format(jpeg)/pic6929092.jpg",
     "players_bgg": "2-6",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "May Contain Butts is a party, luck based game for 2-6 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Mind the Gap",
-    "genre": [
-      "party",
-      "family",
-      "trivia"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["party", "family", "trivia"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/742px5E-1DV2wH-0ykK5ew__original/img/t1Ium5wp2WDQTsfWy4nLxubW9PI=/0x0/filters:format(jpeg)/pic8174631.jpg",
     "players_bgg": "2-7+",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Mind the Gap is a party, family, trivia game for 2-7+ players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Minecraft Explorers",
-    "genre": [
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/J8mr0WGMyvaDqdZ8LV6DAA__original/img/pDVern2GMKfhDeH5q9MzbJaR6x0=/0x0/filters:format(jpeg)/pic7999813.jpg",
     "players_bgg": "2-4",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Minecraft Explorers is a family game for 2-4 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Monopoly",
-    "genre": [
-      "family",
-      "luck based"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "60-120"
-    ],
+    "genre": ["family", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["60-120"],
     "image": "",
     "players_bgg": "2-6",
     "time_bgg": "60-120",
     "weight_bgg": "1-2",
     "description": "Monopoly is a family, luck based game for 2-6 players that typically takes 60-120 minutes."
   },
-  {
+{
     "name": "Monopoly Deal",
-    "genre": [
-      "strategy",
-      "family",
-      "luck based"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["strategy", "family", "luck based"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/BH5gxOe_ozOtWihuCJ3lYw__original/img/CT0sJTxRGY8DvKXaHaMZGT9ChiQ=/0x0/filters:format(jpeg)/pic2098412.jpg",
     "players_bgg": "2-5",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Monopoly Deal is a strategy, family, luck based game for 2-5 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Mysterium",
-    "genre": [
-      "deduction",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["deduction", "family"],
+    "players": ["2", "3", "4", "5", "6", "7"],
+    "weight": ["1-2"],
+    "type": ["co-op"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/1nQ3ZKudtDeAP7IiKE-kNg__original/img/6igmXolQesapNU9yEnexip6m9B8=/0x0/filters:format(jpeg)/pic8625343.jpg",
     "players_bgg": "2-7",
     "time_bgg": "45-60",
     "weight_bgg": "1-2",
     "description": "Mysterium is a deduction, family game for 2-7 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "One Night Ultimate Werewolf",
-    "genre": [
-      "bluffing",
-      "party"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["bluffing", "party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/rqLju4uaZq-G9z4g91aPPQ__original/img/eOxUlbCuix0lOjuyBYpjtIXVihc=/0x0/filters:format(png)/pic8783294.png",
     "players_bgg": "2-7+",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "One Night Ultimate Werewolf is a bluffing, party game for 2-7+ players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Pandemic",
-    "genre": [
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["co-op"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__original/img/IsrvRLpUV1TEyZsO5rC-btXaPz0=/0x0/filters:format(jpeg)/pic1534148.jpg",
     "players_bgg": "2-4",
     "time_bgg": "45-60",
     "weight_bgg": "2-3",
     "description": "Pandemic is a strategy game for 2-4 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Pandemic Legacy",
-    "genre": [
-      "strategy",
-      "legacy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "60-120"
-    ],
+    "genre": ["strategy", "legacy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["co-op"],
+    "time": ["60-120"],
     "image": "",
     "players_bgg": "2-4",
     "time_bgg": "60-120",
     "weight_bgg": "2-3",
     "description": "Pandemic Legacy is a strategy, legacy game for 2-4 players that typically takes 60-120 minutes."
   },
-  {
+{
     "name": "Patchwork",
-    "genre": [
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["strategy", "family"],
+    "players": ["2"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/RDOwMRBnIb3Ehl6GyXj9xg__original/img/iVl8KAZ8JMmDXsnBqQecFRkOhK8=/0x0/filters:format(jpeg)/pic8669620.jpg",
     "players_bgg": "2",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Patchwork is a strategy, family game for 2 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Play Nine",
-    "genre": [
-      "party",
-      "family",
-      "luck based"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["party", "family", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/6fP6ySSuDKEe0Hq8WSAbMQ__original/img/AC723sJ_UIStbrjyO47Z5STr7dU=/0x0/filters:format(jpeg)/pic9203685.jpg",
     "players_bgg": "2-6",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Play Nine is a party, family, luck based game for 2-6 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Really Loud Librarians",
-    "genre": [
-      "party",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/T7rYsKBB-M38VKAOwCXG-w__original/img/ailMBTvhac46iQpsViXsZkSBFSs=/0x0/filters:format(png)/pic7282812.png",
     "players_bgg": "2-7+",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Really Loud Librarians is a party, family game for 2-7+ players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Red Dragon Inn",
-    "genre": [
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/RCXedcfgn5LSfH4-kOUvLA__original/img/Fr16k-_UzhrIB6_yre7SrMhkDxU=/0x0/filters:format(jpeg)/pic291048.jpg",
     "players_bgg": "2-4",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Red Dragon Inn is a strategy game for 2-4 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Scattergories",
-    "genre": [
-      "party",
-      "family",
-      "wordy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["party", "family", "wordy"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/_UJOrI34jFMMbBBirzYdsw__original/img/rgfytn8LWuIaiDvd4H0MfrR1kiQ=/0x0/filters:format(jpeg)/pic1934632.jpg",
     "players_bgg": "2-6",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Scattergories is a party, family, wordy game for 2-6 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Scrabble",
-    "genre": [
-      "family",
-      "strategy",
-      "wordy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["family", "strategy", "wordy"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__original/img/11jrKPiOVTNl5NwX83KGtTZEq40=/0x0/filters:format(jpeg)/pic404651.jpg",
     "players_bgg": "2-4",
     "time_bgg": "45-60",
     "weight_bgg": "1-2",
     "description": "Scrabble is a family, strategy, wordy game for 2-4 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Scythe",
-    "genre": [
-      "area control",
-      "strategy",
-      "worker placement"
-    ],
-    "players": [
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "3-4"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "90-120"
-    ],
+    "genre": ["area control", "strategy", "worker placement"],
+    "players": ["3", "4", "5"],
+    "weight": ["3-4"],
+    "type": ["competitive"],
+    "time": ["90-120"],
     "image": "https://cf.geekdo-images.com/7k_nOxpO9OGIjhLq2BUZdA__original/img/HlDb9F365w0tSP8uD1vf1pfniQE=/0x0/filters:format(jpeg)/pic3163924.jpg",
     "players_bgg": "3-5",
     "time_bgg": "90-120",
     "weight_bgg": "3-4",
     "description": "Scythe is a area control, strategy, worker placement game for 3-5 players that typically takes 90-120 minutes."
   },
-  {
+{
     "name": "Sequence",
-    "genre": [
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/VosGBqkOjkhgC2QFS1o3_g__original/img/ZIc1p75HIEOIwtKy9ZIHsP2l0zQ=/0x0/filters:format(jpeg)/pic212893.jpg",
     "players_bgg": "2-7+",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Sequence is a family game for 2-7+ players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Sheriff of Nottingham",
-    "genre": [
-      "bluffing",
-      "family",
-      "strategy"
-    ],
-    "players": [
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["bluffing", "family", "strategy"],
+    "players": ["3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__original/img/fll2MuTBPVKb7fyBJ8D-4_c1XHM=/0x0/filters:format(jpeg)/pic2075830.jpg",
     "players_bgg": "3-5",
     "time_bgg": "45-60",
     "weight_bgg": "1-2",
     "description": "Sheriff of Nottingham is a bluffing, family, strategy game for 3-5 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Spirit Island",
-    "genre": [
-      "strategy",
-      "area control"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "4-5"
-    ],
-    "type": [
-      "co-op"
-    ],
-    "time": [
-      "90-120"
-    ],
+    "genre": ["strategy", "area control"],
+    "players": ["2", "3", "4"],
+    "weight": ["4-5"],
+    "type": ["co-op"],
+    "time": ["90-120"],
     "image": "https://cf.geekdo-images.com/kjCm4ZvPjIZxS-mYgSPy1g__original/img/9uLd9C3XAvInLCLhAoXqKVk56zs=/0x0/filters:format(jpeg)/pic7013651.jpg",
     "players_bgg": "2-4",
     "time_bgg": "90-120",
     "weight_bgg": "4-5",
     "description": "Spirit Island is a strategy, area control game for 2-4 players that typically takes 90-120 minutes."
   },
-  {
+{
     "name": "Splendor",
-    "genre": [
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__original/img/rqcUdtu_N4v-SpI96XVmpYHnJww=/0x0/filters:format(png)/pic8234167.png",
     "players_bgg": "2-4",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Splendor is a strategy, family game for 2-4 players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Takenoko",
-    "genre": [
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/uvz-5V6A2R6dp2oWIXmj_g__original/img/HxMG1z7bIVGCGPI6u6ciVO0Oubk=/0x0/filters:format(jpeg)/pic1912529.jpg",
     "players_bgg": "2-4",
     "time_bgg": "45-60",
     "weight_bgg": "1-2",
     "description": "Takenoko is a strategy, family game for 2-4 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Throw Throw Burrito",
-    "genre": [
-      "party",
-      "luck based"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["party", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/5ClVKrQcLkzRdBGiEfjevQ__original/img/NDGN_eKZmO7uJD0l5JIKJkAX24o=/0x0/filters:format(jpeg)/pic7073068.jpg",
     "players_bgg": "2-6",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Throw Throw Burrito is a party, luck based game for 2-6 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Ticket to Ride",
-    "genre": [
-      "family",
-      "area control",
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["family", "area control", "strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/kdWYkW-7AqG63HhqPL6ekA__original/img/rWF8r4JXXCQQ7QhiWHhmT-rQ3Pc=/0x0/filters:format(jpeg)/pic8937637.jpg",
     "players_bgg": "2-5",
     "time_bgg": "45-60",
     "weight_bgg": "1-2",
     "description": "Ticket to Ride is a family, area control, strategy game for 2-5 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Trekking the National Parks",
-    "genre": [
-      "family",
-      "strategy"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-60"
-    ],
+    "genre": ["family", "strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-60"],
     "image": "",
     "players_bgg": "2-5",
     "time_bgg": "30-60",
     "weight_bgg": "1-2",
     "description": "Trekking the National Parks is a family, strategy game for 2-5 players that typically takes 30-60 minutes."
   },
-  {
+{
     "name": "Trekking the National Parks: Trivia",
-    "genre": [
-      "family",
-      "trivia"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["family", "trivia"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/B1P7EeZlmit0EsLSpq_PSQ__original/img/RBQAd8uMW_WT3zjgihTIM-mPe5Y=/0x0/filters:format(jpeg)/pic5041363.jpg",
     "players_bgg": "2-5",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Trekking the National Parks: Trivia is a family, trivia game for 2-5 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Uno No Mercy",
-    "genre": [
-      "luck based",
-      "party",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["luck based", "party", "family"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/BrmN9uBYLBf9qzlqtQUhTg__original/img/Wz1TpseAsLyzf065Wfl5RHDmuYc=/0x0/filters:format(jpeg)/pic7762353.jpg",
     "players_bgg": "2-6",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Uno No Mercy is a luck based, party, family game for 2-6 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Unstable Unicorns",
-    "genre": [
-      "luck based",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["luck based", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/8_5xvpsrrX5JVzO7eBLSgw__original/img/XkKaT-quh8xGl2uHD5zULSWTpuM=/0x0/filters:format(jpeg)/pic3912914.jpg",
     "players_bgg": "2-7+",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Unstable Unicorns is a luck based, family game for 2-7+ players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Watson & Holmes",
-    "genre": [
-      "deduction"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "60-120"
-    ],
+    "genre": ["deduction"],
+    "players": ["2", "3", "4", "5", "6", "7"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["60-120"],
     "image": "https://cf.geekdo-images.com/ztk4H_sQcqmiKt3Ai1Nkpw__original/img/tJNyXBkyhC3Mnt0k369U4v-5j6A=/0x0/filters:format(jpeg)/pic3477808.jpg",
     "players_bgg": "2-7",
     "time_bgg": "60-120",
     "weight_bgg": "2-3",
     "description": "Watson & Holmes is a deduction game for 2-7 players that typically takes 60-120 minutes."
   },
-  {
+{
     "name": "Wavelength",
-    "genre": [
-      "party",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "teams"
-    ],
-    "time": [
-      "30-45"
-    ],
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["teams"],
+    "time": ["30-45"],
     "image": "https://cf.geekdo-images.com/z4fbPdmJg_5yphJEvql4ZA__original/img/bP1gM8RC-o5iz20_WazBaBNDHnU=/0x0/filters:format(png)/pic4552862.png",
     "players_bgg": "2-7+",
     "time_bgg": "30-45",
     "weight_bgg": "1-2",
     "description": "Wavelength is a party, family game for 2-7+ players that typically takes 30-45 minutes."
   },
-  {
+{
     "name": "Wingspan",
-    "genre": [
-      "strategy",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "weight": [
-      "2-3"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "45-60"
-    ],
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["45-60"],
     "image": "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__original/img/cI782Zis9cT66j2MjSHKJGnFPNw=/0x0/filters:format(jpeg)/pic4458123.jpg",
     "players_bgg": "2-5",
     "time_bgg": "45-60",
     "weight_bgg": "2-3",
     "description": "Wingspan is a strategy, family game for 2-5 players that typically takes 45-60 minutes."
   },
-  {
+{
     "name": "Worlde",
-    "genre": [
-      "wordy",
-      "family",
-      "deduction"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["wordy", "family", "deduction"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/kJRoj974u0WonSVVyybYFA__original/img/urnv6vhY8l9Hs1OTBTYmhjx2nDM=/0x0/filters:format(jpeg)/pic6979221.jpg",
     "players_bgg": "2-4",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Worlde is a wordy, family, deduction game for 2-4 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "Yahtzee",
-    "genre": [
-      "luck based",
-      "party",
-      "family"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["luck based", "party", "family"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/dp-pJkUemCjhrwi9QItrPA__original/img/eeYPdva8ti4Hi2PYxkTLRPrtfKk=/0x0/filters:format(jpeg)/pic378237.jpg",
     "players_bgg": "2-6",
     "time_bgg": "15-30",
     "weight_bgg": "1-2",
     "description": "Yahtzee is a luck based, party, family game for 2-6 players that typically takes 15-30 minutes."
   },
-  {
+{
     "name": "You Lying Sack",
-    "genre": [
-      "party",
-      "bluffing"
-    ],
-    "players": [
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7+"
-    ],
-    "weight": [
-      "1-2"
-    ],
-    "type": [
-      "competitive"
-    ],
-    "time": [
-      "15-30"
-    ],
+    "genre": ["party", "bluffing"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"],
     "image": "https://cf.geekdo-images.com/tN7q2jfBbm23SsnS00TQag__original/img/O2gKIwyXi9AB2s2cSrs54NOWjFs=/0x0/filters:format(png)/pic7156678.png",
     "players_bgg": "2-7+",
     "time_bgg": "15-30",
