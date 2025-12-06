@@ -1,43 +1,53 @@
 let allGames = [];
 let selectedTags = new Set();
 
-// Load games from games.json
+/* ============================================================
+   FIXED TAG VALUES (your list)
+============================================================ */
+const TAG_OPTIONS = {
+    genre: [
+        "deck builder", "worker placement", "area control",
+        "deduction", "wordy", "luck based", "legacy",
+        "party", "strategy", "bluffing", "role-playing", "family"
+    ],
+    players: ["2", "3", "4", "5", "6", "7+"],
+    weight: ["1-2", "2-3", "3-4", "4-5"],
+    time: ["15-30", "30-45", "45-60", "60-120", "120+"],
+    type: ["coop", "competitive"]
+};
+
+/* ============================================================
+   LOAD GAME DATA
+============================================================ */
 async function loadGames() {
-  try {
-    const response = await fetch("games.json");
-    allGames = await response.json();
-    console.log("Loaded games:", allGames);
+    try {
+        const response = await fetch("games.json");
+        allGames = await response.json();
+        console.log("Loaded games:", allGames);
 
-    generateTagButtons();
-    displayGames(allGames);
-  } catch (err) {
-    console.error("Error loading games.json:", err);
-  }
+        generateTagButtons();
+        displayGames(allGames);
+    } catch (err) {
+        console.error("Error loading games.json:", err);
+    }
 }
 
-// Create tag buttons based on all tags in the data
+/* ============================================================
+   CREATE CHECKBOXES FOR EACH CATEGORY
+============================================================ */
 function generateTagButtons() {
-    createButtons("genre", "genre-container");
-    createButtons("players", "players-container");
-    createButtons("time", "time-container");
-    createButtons("type", "type-container");
+    createButtonsFromList("genre", "genre-container");
+    createButtonsFromList("players", "players-container");
+    createButtonsFromList("weight", "weight-container");
+    createButtonsFromList("time", "time-container");
+    createButtonsFromList("type", "type-container");
 }
 
-function createButtons(category, containerId) {
+function createButtonsFromList(category, containerId) {
     const container = document.getElementById(containerId);
-    container.innerHTML = ""; 
+    container.innerHTML = "";
 
-    let tags = new Set();
-
-    // collect unique tags
-    allGames.forEach(game => {
-        if (Array.isArray(game[category])) {
-            game[category].forEach(tag => tags.add(tag));
-        }
-    });
-
-    // create a vertical checkbox for each tag
-    tags.forEach(tag => {
+    TAG_OPTIONS[category].forEach(tag => {
         const wrapper = document.createElement("div");
         wrapper.className = "check-item";
 
@@ -66,21 +76,20 @@ function createButtons(category, containerId) {
     });
 }
 
-
-
-// Filter by selected tags AND search text
+/* ============================================================
+   FILTER GAME LIST
+============================================================ */
 function filterGames() {
     const searchText = document.getElementById("search-bar").value.toLowerCase();
 
     const filtered = allGames.filter(game => {
-
-        // Tag/category filtering
+        // Match tags
         const matchesTags = [...selectedTags].every(key => {
             const [category, value] = key.split(":");
-            return game[category].includes(value);
+            return Array.isArray(game[category]) && game[category].includes(value);
         });
 
-        // Search filtering
+        // Match text search
         const matchesSearch =
             game.name.toLowerCase().includes(searchText) ||
             Object.keys(game).some(cat => {
@@ -98,13 +107,13 @@ function filterGames() {
     displayGames(filtered);
 }
 
-// Makes the boxes collapsable
+/* ============================================================
+   COLLAPSIBLE CATEGORY HEADERS
+============================================================ */
 function toggleCategory(containerId) {
     const content = document.getElementById(containerId);
     const header = content.previousElementSibling;
     const arrow = header.querySelector(".arrow");
-
-    console.log("toggle fired for:", containerId);
 
     if (content.classList.contains("collapsed")) {
         content.classList.remove("collapsed");
@@ -115,30 +124,28 @@ function toggleCategory(containerId) {
     }
 }
 
-
-
-//
-
-// Render the list of games
+/* ============================================================
+   DISPLAY GAMES
+============================================================ */
 function displayGames(games) {
-  const list = document.getElementById("game-list");
-  list.innerHTML = "";
+    const list = document.getElementById("game-list");
+    list.innerHTML = "";
 
-  games.forEach(game => {
-    const li = document.createElement("li");
-    li.textContent = game.name;
-    list.appendChild(li);
-  });
+    games.forEach(game => {
+        const li = document.createElement("li");
+        li.textContent = game.name;
+        list.appendChild(li);
+    });
 }
 
-// Wait until HTML is ready, then wire everything up
+/* ============================================================
+   INITIALIZE ON PAGE LOAD
+============================================================ */
 window.addEventListener("DOMContentLoaded", () => {
-  // Start by loading game data
-  loadGames();
+    loadGames();
 
-  // Hook up search bar
-  const searchInput = document.getElementById("search-bar");
-  if (searchInput) {
-    searchInput.addEventListener("input", filterGames);
-  }
+    const searchInput = document.getElementById("search-bar");
+    if (searchInput) {
+        searchInput.addEventListener("input", filterGames);
+    }
 });
