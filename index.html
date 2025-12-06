@@ -18,6 +18,7 @@
 
 <div class="layout">
 
+    <!-- SIDEBAR -->
     <aside class="sidebar">
         <p class="filter-title">Select tags to filter games:</p>
 
@@ -39,7 +40,7 @@
             <div id="players-container" class="category-content"></div>
         </div>
 
-        <!-- WEIGHT (NEW SECTION) -->
+        <!-- WEIGHT -->
         <div class="filter-category">
             <div class="category-header" onclick="toggleCategory('weight-container')">
                 <span>Weight</span>
@@ -48,7 +49,7 @@
             <div id="weight-container" class="category-content"></div>
         </div>
 
-        <!-- PLAY TIME -->
+        <!-- TIME -->
         <div class="filter-category">
             <div class="category-header" onclick="toggleCategory('time-container')">
                 <span>Play Time</span>
@@ -65,19 +66,19 @@
             </div>
             <div id="type-container" class="category-content"></div>
         </div>
-
     </aside>
 
-    <!-- Main Content -->
+    <!-- GAME LIST -->
     <main class="main-content">
         <h2>Games</h2>
         <ul id="game-list"></ul>
-
-        <div id="game-details" class="game-details">
-            <p>Select a game to see details...</p>
-        </div>
-
     </main>
+
+    <!-- GAME DETAILS (NOW ON THE RIGHT) -->
+    <div id="game-details" class="game-details">
+        <p>Select a game to see details...</p>
+    </div>
+
 </div>
 
 <script src="script.js"></script>
