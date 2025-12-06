@@ -192,6 +192,35 @@ label {
     text-decoration: underline;
 }
 
+.layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Sidebar fixed width */
+.sidebar {
+    width: 240px;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+}
+
+/* Game list grows naturally */
+.main-content {
+    flex: 1;
+}
+
+/* Fixed-width details panel */
+#game-details {
+    width: 350px;
+    flex-shrink: 0;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 20px;
+}
+
+
 
 /* Stack checkboxes vertically */
 #genre-container,
