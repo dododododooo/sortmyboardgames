@@ -3,6 +3,7 @@
         "name": "Catan",
         "genre": ["strategy"],
         "players": ["3-4"],
+        "weight": [1],
         "time": ["60-90"],
         "type": ["competitive"]
     },
@@ -10,6 +11,7 @@
         "name": "Pandemic",
         "genre": ["strategy"],
         "players": ["2-4"],
+        "weight": [1],
         "time": ["45"],
         "type": ["co-op"]
     },
@@ -17,6 +19,7 @@
         "name": "Azul",
         "genre": ["abstract"],
         "players": ["2-4"],
+        "weight": [1],
         "time": ["30-45"],
         "type": ["competitive"]
     },
@@ -24,6 +27,7 @@
         "name": "Uno No Mercy",
         "genre": ["party"],
         "players": ["1"],
+        "weight": [1],
         "time": ["30-45"],
         "type": ["competitive"]
     }
