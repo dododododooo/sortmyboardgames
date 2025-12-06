@@ -85,6 +85,7 @@ h1 {
 
 .game-detail-card {
     background: #fff;
+    min-height: 450px;
     padding: 50x;                 /* more interior spacing */
     border: 1px solid #ddd;
     border-radius: 16px;
@@ -93,7 +94,6 @@ h1 {
     width: 100%;                   /* fill entire right panel */
     max-width: 1200px;             /* wide card but still readable */
     box-sizing: border-box;
-    min-height: 450px;
 
     transform: scale(1.05);        /* subtle enlargement */
 }
