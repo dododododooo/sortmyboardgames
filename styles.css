@@ -129,6 +129,13 @@ h1 {
     font-size: 20px;       /* bigger body text */
 }
 
+.description-text {
+    font-size: 20px;
+    line-height: 1.45;
+    margin-bottom: 20px;
+}
+
+
 /* ============================================
    TAGS
 ============================================ */
