@@ -6,10 +6,10 @@ let selectedTags = new Set();
 ============================================================ */
 function normalizeFileName(name) {
     return name
-        .toLowerCase()                  // lowercase everything
-        .replace(/[^a-z0-9 ]/g, "")     // remove punctuation/symbols
-        .trim()                         // remove edge spaces
-        .replace(/\s+/g, "_") + ".webp"; // spaces → underscores
+        .toLowerCase()
+        .replace(/[^a-z0-9 ]/g, "")
+        .trim()
+        .replace(/\s+/g, "_") + ".webp";
 }
 
 /* ============================================================
@@ -17,14 +17,14 @@ function normalizeFileName(name) {
 ============================================================ */
 const TAG_OPTIONS = {
     genre: [
-        "deck builder", "area control", "deduction", 
-        "worker placement", "strategy", "bluffing", "luck based", 
+        "deck builder", "area control", "deduction",
+        "worker placement", "strategy", "bluffing", "luck based",
         "wordy", "party", "family", "role-playing", "legacy"
     ],
     players: ["2", "3", "4", "5", "6", "7+"],
     weight: ["1-2", "2-3", "3-4", "4-5"],
     time: ["15-30", "30-45", "45-60", "60-120", "120+"],
-    type: ["competitive","co-op","teams"]
+    type: ["competitive", "co-op", "teams"]
 };
 
 /* ============================================================
@@ -129,6 +129,28 @@ function filterGames() {
 }
 
 /* ============================================================
+   CLEAR ALL FILTERS
+============================================================ */
+function clearAllFilters() {
+    // wipe selected tags
+    selectedTags.clear();
+
+    // uncheck all checkboxes in sidebar
+    document.querySelectorAll(".sidebar input[type='checkbox']").forEach(cb => {
+        cb.checked = false;
+    });
+
+    // reset search text
+    const searchInput = document.getElementById("search-bar");
+    if (searchInput) {
+        searchInput.value = "";
+    }
+
+    // re-run filtering (will show all games)
+    filterGames();
+}
+
+/* ============================================================
    COLLAPSIBLE CATEGORY SECTIONS
 ============================================================ */
 function toggleCategory(containerId) {
@@ -164,12 +186,11 @@ function displayGames(games) {
 }
 
 /* ============================================================
-   SHOW GAME DETAILS (updated for .webp)
+   SHOW GAME DETAILS
 ============================================================ */
 function showGameDetails(game) {
     const panel = document.getElementById("game-details");
 
-    // Build normalized filename for the image
     const fileName = normalizeFileName(game.name);
     const imagePath = "thumbnails/" + fileName;
 
@@ -216,5 +237,10 @@ window.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("search-bar");
     if (searchInput) {
         searchInput.addEventListener("input", filterGames);
+    }
+
+    const clearBtn = document.getElementById("clear-filters-btn");
+    if (clearBtn) {
+        clearBtn.addEventListener("click", clearAllFilters);
     }
 });
