@@ -28,7 +28,7 @@
     "genre": ["deck builder", "strategy"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["45-60"]
   },
   {
@@ -164,7 +164,7 @@
     "genre": ["strategy"],
     "players": ["2", "3", "4", "5"],
     "weight": ["2-3"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["45-60"]
   },
   {
@@ -172,7 +172,7 @@
     "genre": ["deduction", "family"],
     "players": ["2", "3", "4", "5"],
     "weight": ["1-2"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["30-45"]
   },
   {
@@ -196,7 +196,7 @@
     "genre": ["deck builder", "strategy"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["45-60"]
   },
   {
@@ -236,7 +236,7 @@
     "genre": ["role-playing", "legacy"],
     "players": ["1", "2", "3", "4"],
     "weight": ["1-2"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["60-120"]
   },
   {
@@ -292,7 +292,7 @@
     "genre": ["deduction", "family"],
     "players": ["2", "3", "4", "5", "6", "7"],
     "weight": ["1-2"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["45-60"]
   },
   {
@@ -308,7 +308,7 @@
     "genre": ["strategy"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["45-60"]
   },
   {
@@ -316,7 +316,7 @@
     "genre": ["strategy", "legacy"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["60-120"]
   },
   {
@@ -396,7 +396,7 @@
     "genre": ["strategy", "area control"],
     "players": ["2", "3", "4"],
     "weight": ["4-5"],
-    "type": ["coop"],
+    "type": ["co-op"],
     "time": ["90-120"]
   },
   {
