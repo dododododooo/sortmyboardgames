@@ -24,6 +24,13 @@ h1 {
     border-radius: 6px;
 }
 
+/* small label above filters */
+.filter-title {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 /* ============================================
    MAIN LAYOUT - THREE COLUMN FLEXBOX
 ============================================ */
@@ -42,6 +49,22 @@ h1 {
     width: 240px;
     border-right: 1px solid #ddd;
     padding-right: 20px;
+}
+
+/* clear filters button */
+.clear-btn {
+    display: inline-block;
+    margin: 5px 0 15px 0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background: #eee;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    background: #ddd;
 }
 
 /* =========== GAME LIST (MIDDLE COLUMN) =========== */
@@ -68,34 +91,35 @@ h1 {
 
 /* ============================================
    GAME DETAILS PANEL (RIGHT COLUMN)
-   ~2× larger than previous version
 ============================================ */
 
 #game-details {
-    flex: 6;               /* ← dramatically bigger panel */
+    flex: 6;
     padding: 40px;
     max-width: none;
     min-height: 300px;
+
+    position: sticky;
+    top: 20px;
+    height: fit-content;
 }
 
 /* ============================================
-   GAME DETAIL CARD (INSIDE PANEL)
-   ~1.7× bigger overall
+   GAME DETAIL CARD
 ============================================ */
 
 .game-detail-card {
     background: #fff;
-                    /* more interior spacing */
     border: 1px solid #ddd;
     border-radius: 16px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.12);
 
-    width: 100%;                   /* fill entire right panel */
-    max-width: 1200px;             /* wide card but still readable */
+    width: 100%;
+    max-width: 1200px;
     box-sizing: border-box;
-    min-height: 500px; 
+    min-height: 500px;
     padding: 50px;
-    transform: scale(1.05);        /* subtle enlargement */
+    transform: scale(1.05);
 }
 
 .detail-header {
@@ -105,7 +129,7 @@ h1 {
 }
 
 /* ============================================
-   GAME COVER IMAGE — Bigger (260px)
+   GAME COVER IMAGE
 ============================================ */
 
 .detail-thumb {
@@ -121,20 +145,19 @@ h1 {
 ============================================ */
 
 .game-detail-card h2 {
-    font-size: 28px;       /* larger title */
+    font-size: 28px;
     margin: 0 0 12px;
 }
 
 .detail-stats p {
     margin: 8px 0;
-    font-size: 20px;       /* bigger body text */
+    font-size: 20px;
 }
 
 .description-text {
     margin: 8px 0;
-    font-size: 20px; 
+    font-size: 20px;
 }
-
 
 /* ============================================
    TAGS
@@ -152,7 +175,7 @@ h1 {
     border: 1px solid #ccc;
     padding: 8px 14px;
     border-radius: 4px;
-    font-size: 17px;        /* larger tags */
+    font-size: 17px;
 }
 
 /* ============================================
@@ -204,13 +227,6 @@ h1 {
     height: 17px;
     margin-right: 8px;
 }
-
-#game-details {
-    position: sticky;
-    top: 20px;      /* how far from the top of the screen */
-    height: fit-content;
-}
-
 
 /* Vertically stack tag checkboxes */
 #genre-container,
