@@ -1,7 +1,7 @@
 [
 {
     "name": "7 Wonders",
-    "genre": ["deck builder", "strategy", "family"],
+    "genre": ["deck builder", "family"],
     "players": ["3", "4", "5", "6", "7"],
     "weight": ["2-3"],
     "type": ["competitive"],
@@ -14,7 +14,7 @@
   },
 {
     "name": "7 Wonders Duel",
-    "genre": ["deck builder", "strategy"],
+    "genre": ["deck builder"],
     "players": ["2"],
     "weight": ["2-3"],
     "type": ["competitive"],
@@ -27,7 +27,7 @@
   },
 {
     "name": "A Little Wordy",
-    "genre": ["deduction", "family", "wordy"],
+    "genre": ["deduction", "wordy"],
     "players": ["2"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -92,7 +92,7 @@
   },
 {
     "name": "Cascadia",
-    "genre": ["strategy"],
+    "genre": ["strategy", "family"],
     "players": ["2", "3", "4"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -105,7 +105,7 @@
   },
 {
     "name": "Catan",
-    "genre": ["strategy", "area control", "family"],
+    "genre": ["area control", "family"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
     "type": ["competitive"],
@@ -118,7 +118,7 @@
   },
 {
     "name": "Chameleon",
-    "genre": ["bluffing", "family", "party"],
+    "genre": ["bluffing", "party"],
     "players": ["2", "3", "4", "5", "6", "7+"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -209,7 +209,7 @@
   },
 {
     "name": "Everdell",
-    "genre": ["strategy", "worker placement", "family"],
+    "genre": ["strategy", "worker placement"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
     "type": ["competitive"],
@@ -274,7 +274,7 @@
   },
 {
     "name": "Hanabi",
-    "genre": ["deduction", "family"],
+    "genre": ["deduction", "party"],
     "players": ["2", "3", "4", "5"],
     "weight": ["1-2"],
     "type": ["co-op"],
@@ -313,7 +313,7 @@
   },
 {
     "name": "Harry Potter: Hogwarts Battle",
-    "genre": ["deck builder", "strategy"],
+    "genre": ["deck builder","family"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
     "type": ["co-op"],
@@ -352,7 +352,7 @@
   },
 {
     "name": "HISTORY",
-    "genre": ["trivia", "family", "party"],
+    "genre": ["trivia"],
     "players": ["2", "3", "4", "5", "6", "7+"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -417,7 +417,7 @@
   },
 {
     "name": "Mind the Gap",
-    "genre": ["party", "family", "trivia"],
+    "genre": ["trivia"],
     "players": ["2", "3", "4", "5", "6", "7+"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -456,7 +456,7 @@
   },
 {
     "name": "Monopoly Deal",
-    "genre": ["strategy", "family", "luck based"],
+    "genre": ["family", "luck based"],
     "players": ["2", "3", "4", "5"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -469,7 +469,7 @@
   },
 {
     "name": "Mysterium",
-    "genre": ["deduction", "family"],
+    "genre": ["deduction"],
     "players": ["2", "3", "4", "5", "6", "7"],
     "weight": ["1-2"],
     "type": ["co-op"],
@@ -547,7 +547,7 @@
   },
 {
     "name": "Really Loud Librarians",
-    "genre": ["party", "family"],
+    "genre": ["party"],
     "players": ["2", "3", "4", "5", "6", "7+"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -560,7 +560,7 @@
   },
 {
     "name": "Red Dragon Inn",
-    "genre": ["strategy"],
+    "genre": ["strategy", "family"],
     "players": ["2", "3", "4"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -573,7 +573,7 @@
   },
 {
     "name": "Scattergories",
-    "genre": ["party", "family", "wordy"],
+    "genre": ["family", "wordy"],
     "players": ["2", "3", "4", "5", "6"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -586,7 +586,7 @@
   },
 {
     "name": "Scrabble",
-    "genre": ["family", "strategy", "wordy"],
+    "genre": ["family", "wordy"],
     "players": ["2", "3", "4"],
     "weight": ["2-3"],
     "type": ["competitive"],
@@ -625,7 +625,7 @@
   },
 {
     "name": "Sheriff of Nottingham",
-    "genre": ["bluffing", "family", "strategy"],
+    "genre": ["bluffing", "family"],
     "players": ["3", "4", "5"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -703,7 +703,7 @@
   },
 {
     "name": "Trekking the National Parks",
-    "genre": ["family", "strategy"],
+    "genre": ["family"],
     "players": ["2", "3", "4", "5"],
     "weight": ["1-2","2-3"],
     "type": ["competitive"],
@@ -729,7 +729,7 @@
   },
 {
     "name": "Uno No Mercy",
-    "genre": ["luck based", "party", "family"],
+    "genre": ["luck based", "party"],
     "players": ["2", "3", "4", "5", "6"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -742,7 +742,7 @@
   },
 {
     "name": "Unstable Unicorns",
-    "genre": ["luck based", "family"],
+    "genre": ["luck based"],
     "players": ["2", "3", "4", "5", "6", "7+"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -794,7 +794,7 @@
   },
 {
     "name": "Wordle",
-    "genre": ["wordy", "family", "deduction"],
+    "genre": ["wordy"],
     "players": ["2", "3", "4"],
     "weight": ["1-2"],
     "type": ["competitive"],
@@ -807,7 +807,7 @@
   },
 {
     "name": "Yahtzee",
-    "genre": ["luck based", "party", "family"],
+    "genre": ["luck based", "party"],
     "players": ["2", "3", "4", "5", "6"],
     "weight": ["1-2"],
     "type": ["competitive"],
