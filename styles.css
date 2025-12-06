@@ -124,6 +124,17 @@ label {
     cursor: pointer;
 }
 
+#game-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#game-list li {
+    padding: 6px 0;
+}
+
+
 /* Stack checkboxes vertically */
 #genre-container,
 #players-container,
