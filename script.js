@@ -6,7 +6,7 @@ let selectedTags = new Set();
 ============================================================ */
 const TAG_OPTIONS = {
     genre: [
-        "deck-builder", "area control", "deduction", 
+        "deck builder", "area control", "deduction", 
         "worker placement", "strategy", "bluffing", "luck based", 
         "wordy", "party", "family", "role-playing", "legacy"
     ],
