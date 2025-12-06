@@ -6,14 +6,14 @@ let selectedTags = new Set();
 ============================================================ */
 const TAG_OPTIONS = {
     genre: [
-        "deck builder", "worker placement", "area control",
-        "deduction", "wordy", "luck based", "legacy",
-        "party", "strategy", "bluffing", "role-playing", "family"
+        "deck-builder", "area control", "deduction", 
+        "worker placement", "strategy", "bluffing", "luck based", 
+        "wordy", "party", "family", "role-playing", "legacy"
     ],
     players: ["2", "3", "4", "5", "6", "7+"],
-    weight: ["1-2", "2-3", "3-4", "4-5"],
+    weight: ["1", "2", "3", "4","5"],
     time: ["15-30", "30-45", "45-60", "60-120", "120+"],
-    type: ["coop", "competitive"]
+    type: ["co-op", "competitive"]
 };
 
 /* ============================================================
