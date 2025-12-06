@@ -1,18 +1,15 @@
-/* ============================
-   BASE LAYOUT + TYPOGRAPHY
-============================ */
+/* ============================================
+   BASE TYPOGRAPHY & PAGE STYLE
+============================================ */
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    width: 100%;
-    max-width: none;
     background: #fafafa;
 }
 
 h1 {
-    text-align: left;   /* LEFT align title */
     margin-left: 10px;
 }
 
@@ -21,41 +18,108 @@ h1 {
     padding: 10px;
     width: 100%;
     max-width: 350px;
-    margin: 0 0 25px 10px;  /* left aligned */
+    margin: 0 0 25px 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 6px;
 }
 
-/* ============================
-   PAGE LAYOUT
-============================ */
+/* ============================================
+   MAIN LAYOUT - THREE COLUMN FLEXBOX
+============================================ */
 
 .layout {
     display: flex;
     gap: 30px;
-    max-width: 1200px;
-    margin-left: 10px;
+    width: 100%;
+    max-width: 100%;   /* critical fix: lets your right panel grow */
+    align-items: flex-start;
 }
+
+/* =========== SIDEBAR =========== */
 
 .sidebar {
     width: 240px;
-    padding-right: 20px;
     border-right: 1px solid #ddd;
+    padding-right: 20px;
 }
 
+/* =========== GAME LIST (MIDDLE COLUMN) =========== */
+
 .main-content {
-    flex-grow: 1;
+    flex: 1.2; /* provides room but doesn't dominate */
+}
+
+#game-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 #game-list li {
     padding: 6px 0;
     font-size: 18px;
+    cursor: pointer;
 }
 
-/* ============================
+#game-list li:hover {
+    text-decoration: underline;
+}
+
+/* =========== GAME DETAILS (RIGHT COLUMN) =========== */
+
+#game-details {
+    flex: 3;                 /* ← THIS controls the size of your big red area */
+    padding: 20px;
+    max-width: none;
+    min-height: 300px;
+}
+
+.game-detail-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 700px;       /* keeps content readable */
+    margin: 0;
+}
+
+.detail-header {
+    display: flex;
+    gap: 20px;
+}
+
+.detail-thumb {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.detail-stats p {
+    margin: 4px 0;
+}
+
+.detail-tags {
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.detail-tag {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* ============================================
    COLLAPSIBLE FILTER SECTIONS
-============================ */
+============================================ */
 
 .filter-category {
     margin-bottom: 15px;
@@ -66,15 +130,10 @@ h1 {
 .category-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     cursor: pointer;
     font-weight: bold;
     font-size: 17px;
     padding: 6px 0;
-}
-
-.category-header:hover {
-    color: #333;
 }
 
 .arrow {
@@ -96,147 +155,22 @@ h1 {
     max-height: 0;
 }
 
-/* ============================
-   CHECKBOX TAGS
-============================ */
-
 .check-item {
     display: flex;
     align-items: center;
     margin: 5px 0;
-    font-size: 15px;
-    cursor: pointer;
 }
 
 .check-item input[type="checkbox"] {
     width: 17px;
     height: 17px;
     margin-right: 8px;
-    cursor: pointer;
 }
 
-.check-item:hover label {
-    font-weight: bold;
-    color: #222;
-}
-
-label {
-    cursor: pointer;
-}
-
-#game-list {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-#game-list li {
-    padding: 6px 0;
-}
-
-/* ============================
-   QUICK GAME INFORMATION
-============================ */
-.game-details {
-    margin-top: 20px;
-    padding: 15px;
-}
-
-.game-detail-card {
-    background: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.detail-header {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-}
-
-.detail-thumb {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 6px;
-    border: 1px solid #aaa;
-}
-
-
-.detail-stats p {
-    margin: 4px 0;
-}
-
-.detail-tags {
-    margin-top: 15px;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-}
-
-.detail-tag {
-    background: #eee;
-    border: 1px solid #ccc;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 13px;
-}
-
-.game-item {
-    cursor: pointer;
-}
-
-.game-item:hover {
-    text-decoration: underline;
-}
-
-.layout {
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-}
-
-/* Sidebar fixed width */
-.sidebar {
-    width: 240px;
-    border-right: 1px solid #ddd;
-    padding-right: 20px;
-}
-
-/* Game list grows naturally */
-.main-content {
-    flex: 1;
-}
-
-/* Fixed-width details panel */
-/*#game-details {
-    width: 350px;
-    flex-shrink: 0;
-    max-height: 90vh;
-    overflow-y: auto;
-    top: 20px;
-}
-*/
-
-#game-details {
-    flex: 1;
-    max-width: none;
-    position: sticky;
-    padding: 20px;
-}
-
-.game-detail-card {
-    max-width: 600px;
-    margin: 0;
-}
-
-
-
-/* Stack checkboxes vertically */
+/* Vertically stack tag checkboxes */
 #genre-container,
 #players-container,
+#weight-container,
 #time-container,
 #type-container {
     display: flex;
