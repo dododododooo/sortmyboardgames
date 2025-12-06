@@ -1,34 +1,514 @@
 [
-    {
-        "name": "Catan",
-        "genre": ["strategy","family"],
-        "players": ["3-4"],
-        "weight": [1],
-        "time": ["60-90"],
-        "type": ["competitive"]
-    },
-    {
-        "name": "Pandemic",
-        "genre": ["strategy"],
-        "players": ["2-4"],
-        "weight": [1],
-        "time": ["45"],
-        "type": ["co-op"]
-    },
-    {
-        "name": "Azul",
-        "genre": ["abstract"],
-        "players": ["2-4"],
-        "weight": [1],
-        "time": ["30-45"],
-        "type": ["competitive"]
-    },
-    {
-        "name": "Uno No Mercy",
-        "genre": ["party"],
-        "players": ["1"],
-        "weight": [1],
-        "time": ["30-45"],
-        "type": ["competitive"]
-    }
+  {
+    "name": "7 Wonders",
+    "genre": ["deck builder", "strategy", "family"],
+    "players": ["3", "4", "5", "6", "7"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "7 Wonders Duel",
+    "genre": ["deck builder", "strategy"],
+    "players": ["2"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "A Little Wordy",
+    "genre": ["deduction", "family", "wordy"],
+    "players": ["2"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Aeon's End",
+    "genre": ["deck builder", "strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["coop"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Animated",
+    "genre": ["family", "strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Azul",
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Carcassonne",
+    "genre": ["area control", "strategy", "family"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Cascadia",
+    "genre": ["strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Catan",
+    "genre": ["strategy", "area control", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["60-120"]
+  },
+  {
+    "name": "Chameleon",
+    "genre": ["bluffing", "family", "party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Chess",
+    "genre": ["strategy"],
+    "players": ["2"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Codenames",
+    "genre": ["deduction", "party", "family", "wordy"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["teams"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Destinies",
+    "genre": ["role-playing"],
+    "players": ["2", "3"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["60-120"]
+  },
+  {
+    "name": "Dominion",
+    "genre": ["deck builder", "strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Doomlings",
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Ecos",
+    "genre": ["strategy", "area control"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Everdell",
+    "genre": ["strategy", "worker placement", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Exploding Kittens",
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Flip 7",
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Flourish",
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Forbidden Desert",
+    "genre": ["strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["2-3"],
+    "type": ["coop"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Hanabi",
+    "genre": ["deduction", "family"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["coop"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Happy Little Dinosaurs",
+    "genre": ["luck based", "party"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Happy Salmon",
+    "genre": ["party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Harry Potter: Hogwarts Battle",
+    "genre": ["deck builder", "strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["coop"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Herd Mentality",
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Here to Slay",
+    "genre": ["strategy", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "HISTORY",
+    "genre": ["trivia", "family", "party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Hues and Cues",
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Legacy of Dragonholt",
+    "genre": ["role-playing", "legacy"],
+    "players": ["1", "2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["coop"],
+    "time": ["60-120"]
+  },
+  {
+    "name": "Legend of the Five Rings",
+    "genre": ["strategy", "bluffing"],
+    "players": ["2"],
+    "weight": ["3-4"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "May Contain Butts",
+    "genre": ["party", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Mind the Gap",
+    "genre": ["party", "family", "trivia"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Minecraft Explorers",
+    "genre": ["family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Monopoly",
+    "genre": ["family", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["60-120"]
+  },
+  {
+    "name": "Monopoly Deal",
+    "genre": ["strategy", "family", "luck based"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Mysterium",
+    "genre": ["deduction", "family"],
+    "players": ["2", "3", "4", "5", "6", "7"],
+    "weight": ["1-2"],
+    "type": ["coop"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "One Night Ultimate Werewolf",
+    "genre": ["bluffing", "party"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Pandemic",
+    "genre": ["strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["coop"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Pandemic Legacy",
+    "genre": ["strategy", "legacy"],
+    "players": ["2", "3", "4"],
+    "weight": ["2-3"],
+    "type": ["coop"],
+    "time": ["60-120"]
+  },
+  {
+    "name": "Patchwork",
+    "genre": ["strategy", "family"],
+    "players": ["2"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Play Nine",
+    "genre": ["party", "family", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Really Loud Librarians",
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Red Dragon Inn",
+    "genre": ["strategy"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Scattergories",
+    "genre": ["party", "family", "wordy"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Scrabble",
+    "genre": ["family", "strategy", "wordy"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Scythe",
+    "genre": ["area control", "strategy", "worker placement"],
+    "players": ["3", "4", "5"],
+    "weight": ["3-4"],
+    "type": ["competitive"],
+    "time": ["90-120"]
+  },
+  {
+    "name": "Sequence",
+    "genre": ["family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Sheriff of Nottingham",
+    "genre": ["bluffing", "family", "strategy"],
+    "players": ["3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Spirit Island",
+    "genre": ["strategy", "area control"],
+    "players": ["2", "3", "4"],
+    "weight": ["4-5"],
+    "type": ["coop"],
+    "time": ["90-120"]
+  },
+  {
+    "name": "Splendor",
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Takenoko",
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Throw Throw Burrito",
+    "genre": ["party", "luck based"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Ticket to Ride",
+    "genre": ["family", "area control", "strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Trekking the National Parks",
+    "genre": ["family", "strategy"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-60"]
+  },
+  {
+    "name": "Trekking the National Parks: Trivia",
+    "genre": ["family", "trivia"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Uno No Mercy",
+    "genre": ["luck based", "party", "family"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Unstable Unicorns",
+    "genre": ["luck based", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Watson & Holmes",
+    "genre": ["deduction"],
+    "players": ["2", "3", "4", "5", "6", "7"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["60-120"]
+  },
+  {
+    "name": "Wavelength",
+    "genre": ["party", "family"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["teams"],
+    "time": ["30-45"]
+  },
+  {
+    "name": "Wingspan",
+    "genre": ["strategy", "family"],
+    "players": ["2", "3", "4", "5"],
+    "weight": ["2-3"],
+    "type": ["competitive"],
+    "time": ["45-60"]
+  },
+  {
+    "name": "Worlde",
+    "genre": ["wordy", "family", "deduction"],
+    "players": ["2", "3", "4"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "Yahtzee",
+    "genre": ["luck based", "party", "family"],
+    "players": ["2", "3", "4", "5", "6"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  },
+  {
+    "name": "You Lying Sack",
+    "genre": ["party", "bluffing"],
+    "players": ["2", "3", "4", "5", "6", "7+"],
+    "weight": ["1-2"],
+    "type": ["competitive"],
+    "time": ["15-30"]
+  }
 ]
