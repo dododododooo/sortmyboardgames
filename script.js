@@ -167,7 +167,14 @@ function showGameDetails(game) {
     panel.innerHTML = `
         <div class="game-detail-card">
             <div class="detail-header">
-                <div class="detail-thumb">IMG</div>
+                
+                <!-- IMAGE DISPLAY -->
+                <img 
+                    src="${game.image || ''}" 
+                    alt="${game.name} cover" 
+                    class="detail-thumb"
+                >
+
                 <div>
                     <h2>${game.name}</h2>
                     <div class="detail-stats">
@@ -185,6 +192,7 @@ function showGameDetails(game) {
         </div>
     `;
 }
+
 
 /* ============================================================
    INITIALIZE ON PAGE LOAD
