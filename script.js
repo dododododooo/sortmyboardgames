@@ -149,8 +149,41 @@ function displayGames(games) {
     games.forEach(game => {
         const li = document.createElement("li");
         li.textContent = game.name;
+        li.classList.add("game-item");
+
+        li.onclick = () => showGameDetails(game);
+
         list.appendChild(li);
     });
+}
+
+/* ============================================================
+   DISPLAY QUICK GAME INFORMATION
+============================================================ */
+
+function showGameDetails(game) {
+    const panel = document.getElementById("game-details");
+
+    panel.innerHTML = `
+        <div class="game-detail-card">
+            <div class="detail-header">
+                <div class="detail-thumb">IMG</div>
+                <div>
+                    <h2>${game.name}</h2>
+                    <div class="detail-stats">
+                        <p><strong>Players:</strong> ${game.players.join(", ")}</p>
+                        <p><strong>Play Time:</strong> ${game.time.join(", ")}</p>
+                        <p><strong>Weight:</strong> ${game.weight.join(", ")}</p>
+                        <p><strong>Type:</strong> ${game.type.join(", ")}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-tags">
+                ${game.genre.map(g => `<span class="detail-tag">${g}</span>`).join("")}
+            </div>
+        </div>
+    `;
 }
 
 /* ============================================================
