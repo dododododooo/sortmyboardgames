@@ -32,6 +32,49 @@ h1 {
 }
 
 /* ============================================
+   TOP NAVIGATION BAR
+============================================ */
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: white;
+    padding: 15px 25px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.header-btn {
+    padding: 8px 16px;
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.2s;
+}
+
+.header-btn:hover {
+    background: #e5e5e5;
+}
+
+/* ============================================
    MAIN LAYOUT - THREE COLUMN FLEXBOX
 ============================================ */
 
