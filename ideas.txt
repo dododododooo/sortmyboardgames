@@ -1,4 +1,6 @@
 clear filters
 show active tags at the top
-quick info on click of game
-add trivia as a genre
+download all jpgs --> convert to webp's
+give quick display a header "Quick Display"
+get new "real" descriptions
+add a way to add games?? prolly not
