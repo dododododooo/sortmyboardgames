@@ -85,7 +85,6 @@ h1 {
 
 .game-detail-card {
     background: #fff;
-    min-height: 450px;
     padding: 50x;                 /* more interior spacing */
     border: 1px solid #ddd;
     border-radius: 16px;
