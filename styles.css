@@ -68,31 +68,33 @@ h1 {
 
 /* ============================================
    GAME DETAILS PANEL (RIGHT COLUMN)
+   ~2× larger than previous version
 ============================================ */
 
 #game-details {
-    flex: 4;                /* BIGGER PANEL — controls right-side width */
-    padding: 30px;
+    flex: 6;               /* ← dramatically bigger panel */
+    padding: 40px;
     max-width: none;
     min-height: 300px;
 }
 
 /* ============================================
    GAME DETAIL CARD (INSIDE PANEL)
+   ~1.7× bigger overall
 ============================================ */
 
 .game-detail-card {
     background: #fff;
-    padding: 30px;
+    padding: 40px;                 /* more interior spacing */
     border: 1px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12);
 
-    width: 100%;           /* Fill entire right-side panel */
-    max-width: none;       /* No more width limits */
+    width: 100%;                   /* fill entire right panel */
+    max-width: 1200px;             /* wide card but still readable */
     box-sizing: border-box;
 
-    transform: scale(1.0); /* You can raise this for even bigger scaling */
+    transform: scale(1.05);        /* subtle enlargement */
 }
 
 .detail-header {
@@ -101,20 +103,35 @@ h1 {
     align-items: flex-start;
 }
 
+/* ============================================
+   GAME COVER IMAGE — Bigger (260px)
+============================================ */
+
 .detail-thumb {
-    width: 200px;          /* Scaled-up cover image */
-    height: 200px;
+    width: 260px;
+    height: 260px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid #aaa;
 }
 
-.detail-stats p {
-    margin: 6px 0;
-    font-size: 18px;       /* Larger readable text */
+/* ============================================
+   TEXT SCALING
+============================================ */
+
+.game-detail-card h2 {
+    font-size: 28px;       /* larger title */
+    margin: 0 0 12px;
 }
 
-/* TAGS */
+.detail-stats p {
+    margin: 8px 0;
+    font-size: 20px;       /* bigger body text */
+}
+
+/* ============================================
+   TAGS
+============================================ */
 
 .detail-tags {
     margin-top: 20px;
@@ -126,13 +143,13 @@ h1 {
 .detail-tag {
     background: #eee;
     border: 1px solid #ccc;
-    padding: 6px 10px;
+    padding: 8px 14px;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 17px;        /* larger tags */
 }
 
 /* ============================================
-   COLLAPSIBLE FILTER SECTIONS (UNCHANGED)
+   COLLAPSIBLE FILTER SECTIONS
 ============================================ */
 
 .filter-category {
