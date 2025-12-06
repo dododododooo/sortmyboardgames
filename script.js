@@ -11,7 +11,7 @@ const TAG_OPTIONS = {
         "wordy", "party", "family", "role-playing", "legacy"
     ],
     players: ["2", "3", "4", "5", "6", "7+"],
-    weight: ["1", "2", "3", "4","5"],
+    weight: ["1-2", "2-3", "3-4", "4-5"],
     time: ["15-30", "30-45", "45-60", "60-120", "120+"],
     type: ["co-op", "competitive"]
 };
