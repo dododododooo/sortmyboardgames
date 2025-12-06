@@ -4,3 +4,4 @@ download all jpgs --> convert to webp's
 give quick display a header "Quick Display"
 get new "real" descriptions
 add a way to add games?? prolly not
+make display not just sticky, but not move at all maybe. also could give it a background that covers whole right side
