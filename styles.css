@@ -1,66 +1,64 @@
-/* =========================================
-   Base Layout + Typography
-========================================= */
+/* ============================
+   BASE LAYOUT + TYPOGRAPHY
+============================ */
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px 0 0 0;
-    padding: 0 20px;
+    margin: 0;
+    padding: 20px;
     width: 100%;
     max-width: none;
     background: #fafafa;
 }
 
-h1, header {
-    text-align: center;
+h1 {
+    text-align: left;   /* LEFT align title */
+    margin-left: 10px;
 }
 
 #search-bar {
     display: block;
     padding: 10px;
     width: 100%;
-    max-width: 400px;
-    margin: 0 auto 30px auto;
+    max-width: 350px;
+    margin: 0 0 25px 10px;  /* left aligned */
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 6px;
 }
 
-/* =========================================
-   Layout Structure
-========================================= */
+/* ============================
+   PAGE LAYOUT
+============================ */
 
 .layout {
     display: flex;
     gap: 30px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: 10px;
 }
 
-/* Sidebar styling */
 .sidebar {
-    width: 260px;
-    flex-shrink: 0;
-    border-right: 1px solid #ddd;
+    width: 240px;
     padding-right: 20px;
+    border-right: 1px solid #ddd;
 }
 
-/* Main content */
 .main-content {
     flex-grow: 1;
 }
 
 #game-list li {
-    padding: 8px 0;
+    padding: 6px 0;
     font-size: 18px;
 }
 
-/* =========================================
-   Filter Category (Collapsible Sections)
-========================================= */
+/* ============================
+   COLLAPSIBLE FILTER SECTIONS
+============================ */
 
 .filter-category {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
 }
@@ -71,7 +69,7 @@ h1, header {
     align-items: center;
     cursor: pointer;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     padding: 6px 0;
 }
 
@@ -87,11 +85,10 @@ h1, header {
     transform: rotate(-90deg);
 }
 
-/* Collapsible content area */
 .category-content {
-    margin-left: 12px;
+    margin-left: 8px;
     overflow: hidden;
-    max-height: 500px;
+    max-height: 600px;
     transition: max-height 0.35s ease;
 }
 
@@ -99,35 +96,35 @@ h1, header {
     max-height: 0;
 }
 
-/* =========================================
-   Checkbox Tag Styling
-========================================= */
+/* ============================
+   CHECKBOX TAGS
+============================ */
 
 .check-item {
     display: flex;
     align-items: center;
-    margin: 6px 0;
-    font-size: 16px;
+    margin: 5px 0;
+    font-size: 15px;
     cursor: pointer;
 }
 
 .check-item input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
     cursor: pointer;
 }
 
 .check-item:hover label {
     font-weight: bold;
-    color: #333;
+    color: #222;
 }
 
 label {
     cursor: pointer;
 }
 
-/* Make each tag category stack vertically */
+/* Stack checkboxes vertically */
 #genre-container,
 #players-container,
 #time-container,
