@@ -1,4 +1,4 @@
 clear filters
 show active tags at the top
 quick info on click of game
-reorder genres
+add trivia as a genre
