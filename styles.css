@@ -158,7 +158,7 @@ h1 {
     max-width: none;
     min-height: 300px;
 
-    position: sticky;
+    position: fixed;
     top: 20px;
     height: fit-content;
 }
