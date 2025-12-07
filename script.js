@@ -18,7 +18,7 @@ function normalizeFileName(name) {
 const TAG_OPTIONS = {
     genre: [
         "deck builder", "area control", "deduction",
-        "worker placement", "strategy", "bluffing", "luck based",
+        "worker placement", "strategy", "bluffing", "luck based", "trivia",
         "wordy", "party", "family", "role-playing", "legacy"
     ],
     players: ["2", "3", "4", "5", "6", "7+"],
