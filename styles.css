@@ -149,7 +149,7 @@ h1 {
 .game-details-fixed {
     position: fixed;
     top: 225px;         /* moved UP 50px (was 290px) */
-    right: 150px;       /* shifted LEFT by 100px (was 35px) */
+    right: 125px;       /* shifted LEFT by 100px (was 35px) */
     width: calc(65% - 50px); /* now 150px wider than before */
 
     max-height: 70vh;
