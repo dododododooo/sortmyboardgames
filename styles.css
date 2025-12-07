@@ -148,9 +148,9 @@ h1 {
 
 .game-details-fixed {
     position: fixed;
-    top: 240px;         /* moved UP 50px (was 290px) */
-    right: 135px;       /* shifted LEFT by 100px (was 35px) */
-    width: calc(60% - 50px); /* now 150px wider than before */
+    top: 225px;         /* moved UP 50px (was 290px) */
+    right: 150px;       /* shifted LEFT by 100px (was 35px) */
+    width: calc(65% - 50px); /* now 150px wider than before */
 
     max-height: 70vh;
     overflow-y: auto;
