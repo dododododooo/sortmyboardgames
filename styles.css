@@ -152,16 +152,24 @@ h1 {
    GAME DETAILS PANEL (RIGHT COLUMN)
 ============================================ */
 
-#game-details {
-    flex: 6;
-    padding: 40px;
-    max-width: none;
-    min-height: 300px;
-
+.game-details {
     position: fixed;
-    top: 20px;
-    height: fit-content;
+    top: 90px;          /* keeps it under the header */
+    right: 35px;        /* spacing from right edge */
+    width: 45%;         /* width of panel */
+    max-height: 80vh;
+    overflow-y: auto;
+
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
+
+.main-content {
+    margin-right: 50%;  /* ensures list doesn't hide under panel */
+}
+
 
 /* ============================================
    GAME DETAIL CARD
