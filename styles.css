@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     background: #e4e4e8;
 }
 
@@ -24,6 +24,7 @@ h1 {
     border-radius: 6px;
 }
 
+/* small label above filters */
 .filter-title {
     margin: 0 0 10px 0;
     font-weight: bold;
@@ -39,7 +40,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 
-    background: #3c355d;
+    background: #3c355d; 
     color: white;
 
     padding: 6px 18px;
@@ -87,19 +88,17 @@ h1 {
    MAIN LAYOUT
 ============================================ */
 
+.page-content {
+    padding: 20px 30px;
+}
+
 .layout {
     display: flex;
     gap: 30px;
     width: 100%;
-    max-width: 100%;
-    align-items: flex-start;
-
-    padding-left: 20px;   /* restore left padding after header reset */
 }
 
-/* ============================================
-   SIDEBAR
-============================================ */
+/* =========== SIDEBAR =========== */
 
 .sidebar {
     width: 240px;
@@ -114,7 +113,6 @@ h1 {
     border-radius: 6px;
     border: 1px solid #555;
     background: #eee;
-    font-size: 14px;
     cursor: pointer;
 }
 
@@ -122,19 +120,16 @@ h1 {
     background: #ddd;
 }
 
-/* ============================================
-   GAME LIST (CENTER COLUMN)
-============================================ */
+/* =========== MIDDLE LIST =========== */
 
 .main-content {
     flex: 1.2;
-    margin-right: 48%;  /* prevents overlap under fixed panel */
 }
 
 #game-list {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 #game-list li {
@@ -148,39 +143,38 @@ h1 {
 }
 
 /* ============================================
-   FIXED GAME DETAILS PANEL (RIGHT SIDE)
+   FIXED GAME DETAILS PANEL
 ============================================ */
-
-#game-details {
-    /* remove old styling */
-    background: none !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
-}
 
 .game-details-fixed {
     position: fixed;
-    top: 90px;       /* sits under header */
-    right: 30px;     /* spacing from window right */
-    bottom: 30px;    /* spacing from window bottom */
-    left: 650px;     /* <<< THIS defines the left boundary (your red box) */
+    top: 290px;       /* moved 200px lower */
+    right: 35px;
+    width: calc(45% - 200px); /* 200px narrower */
+    max-height: 70vh;
     overflow-y: auto;
 
-    background: white;
-    border-radius: 14px;
-    padding: 28px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    background: none !important; 
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* Inner card that stays visible */
+.game-detail-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12);
+
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
 }
 
 /* ============================================
-   GAME DETAIL CARD CONTENT
+   CARD CONTENT
 ============================================ */
-
-.game-detail-card {
-    width: 100%;
-    box-sizing: border-box;
-}
 
 .detail-header {
     display: flex;
@@ -207,10 +201,7 @@ h1 {
     font-size: 20px;
 }
 
-/* ============================================
-   TAG STYLING
-============================================ */
-
+/* Tags */
 .detail-tags {
     margin-top: 20px;
     display: flex;
@@ -270,7 +261,7 @@ h1 {
     margin: 5px 0;
 }
 
-.check-item input[type="checkbox"] {
+.check-item input {
     width: 17px;
     height: 17px;
     margin-right: 8px;
