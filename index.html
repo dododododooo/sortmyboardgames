@@ -19,78 +19,82 @@
     </div>
 </header>
 
+<!-- NEW WRAPPER ADDED BELOW -->
+<div class="page-content">
 
-<input 
-  type="text" 
-  id="search-bar" 
-  placeholder="Search games..."
->
+    <input 
+      type="text" 
+      id="search-bar" 
+      placeholder="Search games..."
+    >
 
-<div class="layout">
+    <div class="layout">
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-        <p class="filter-title">Select tags to filter games:</p>
-        <button id="clear-filters-btn" class="clear-btn">Clear All Filters</button>
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <p class="filter-title">Select tags to filter games:</p>
+            <button id="clear-filters-btn" class="clear-btn">Clear All Filters</button>
 
-        <!-- GENRE -->
-        <div class="filter-category">
-            <div class="category-header" onclick="toggleCategory('genre-container')">
-                <span>Genre</span>
-                <span class="arrow">▾</span>
+            <!-- GENRE -->
+            <div class="filter-category">
+                <div class="category-header" onclick="toggleCategory('genre-container')">
+                    <span>Genre</span>
+                    <span class="arrow">▾</span>
+                </div>
+                <div id="genre-container" class="category-content"></div>
             </div>
-            <div id="genre-container" class="category-content"></div>
-        </div>
 
-        <!-- PLAYERS -->
-        <div class="filter-category">
-            <div class="category-header" onclick="toggleCategory('players-container')">
-                <span>Players</span>
-                <span class="arrow">▾</span>
+            <!-- PLAYERS -->
+            <div class="filter-category">
+                <div class="category-header" onclick="toggleCategory('players-container')">
+                    <span>Players</span>
+                    <span class="arrow">▾</span>
+                </div>
+                <div id="players-container" class="category-content"></div>
             </div>
-            <div id="players-container" class="category-content"></div>
-        </div>
 
-        <!-- WEIGHT -->
-        <div class="filter-category">
-            <div class="category-header" onclick="toggleCategory('weight-container')">
-                <span>Weight</span>
-                <span class="arrow">▾</span>
+            <!-- WEIGHT -->
+            <div class="filter-category">
+                <div class="category-header" onclick="toggleCategory('weight-container')">
+                    <span>Weight</span>
+                    <span class="arrow">▾</span>
+                </div>
+                <div id="weight-container" class="category-content"></div>
             </div>
-            <div id="weight-container" class="category-content"></div>
-        </div>
 
-        <!-- TIME -->
-        <div class="filter-category">
-            <div class="category-header" onclick="toggleCategory('time-container')">
-                <span>Play Time</span>
-                <span class="arrow">▾</span>
+            <!-- TIME -->
+            <div class="filter-category">
+                <div class="category-header" onclick="toggleCategory('time-container')">
+                    <span>Play Time</span>
+                    <span class="arrow">▾</span>
+                </div>
+                <div id="time-container" class="category-content"></div>
             </div>
-            <div id="time-container" class="category-content"></div>
-        </div>
 
-        <!-- TYPE -->
-        <div class="filter-category">
-            <div class="category-header" onclick="toggleCategory('type-container')">
-                <span>Type</span>
-                <span class="arrow">▾</span>
+            <!-- TYPE -->
+            <div class="filter-category">
+                <div class="category-header" onclick="toggleCategory('type-container')">
+                    <span>Type</span>
+                    <span class="arrow">▾</span>
+                </div>
+                <div id="type-container" class="category-content"></div>
             </div>
-            <div id="type-container" class="category-content"></div>
-        </div>
-    </aside>
+        </aside>
 
-    <!-- GAME LIST -->
-    <main class="main-content">
-        <h2>Games</h2>
-        <ul id="game-list"></ul>
-    </main>
+        <!-- GAME LIST -->
+        <main class="main-content">
+            <h2>Games</h2>
+            <ul id="game-list"></ul>
+        </main>
 
-    <!-- GAME DETAILS -->
-    <section id="game-details" class="game-details">
-        <p>Select a game to see details...</p>
-    </section>
+        <!-- GAME DETAILS -->
+        <section id="game-details" class="game-details">
+            <p>Select a game to see details...</p>
+        </section>
 
-</div>
+    </div> <!-- end layout -->
+
+</div> <!-- end page-content -->
 
 <script src="script.js"></script>
 </body>
