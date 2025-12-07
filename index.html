@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>SortMyBoardGames</title>
 
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Main Styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,18 +24,20 @@
     </div>
 </header>
 
-<!-- NEW WRAPPER ADDED BELOW -->
+<!-- MAIN PAGE WRAPPER -->
 <div class="page-content">
 
+    <!-- SEARCH BAR -->
     <input 
-      type="text" 
-      id="search-bar" 
-      placeholder="Search games..."
+        type="text" 
+        id="search-bar" 
+        placeholder="Search games..."
     >
-    
+
+    <!-- MAIN 3-COLUMN LAYOUT -->
     <div class="layout">
 
-        <!-- SIDEBAR -->
+        <!-- ========== SIDEBAR (LEFT) ========== -->
         <aside class="sidebar">
             <p class="filter-title">Select tags to filter games:</p>
             <button id="clear-filters-btn" class="clear-btn">Clear All Filters</button>
@@ -83,20 +88,22 @@
             </div>
         </aside>
 
-        <!-- GAME LIST -->
+        <!-- ========== GAME LIST (CENTER COLUMN) ========== -->
         <main class="main-content">
             <h2>Games</h2>
             <ul id="game-list"></ul>
         </main>
 
-        <!-- GAME DETAILS -->
-        <section id="game-details" class="game-details">
-            <p>Select a game to see details...</p>
-        </section>
+    </div> <!-- END LAYOUT -->
 
-    </div> <!-- end layout -->
+</div> <!-- END PAGE-CONTENT -->
 
-</div> <!-- end page-content -->
+
+<!-- ========== RIGHT SIDE FIXED GAME DETAILS PANEL ========== -->
+<section id="game-details" class="game-details-fixed">
+    <p>Select a game to see details...</p>
+</section>
+
 
 <script src="script.js"></script>
 </body>
