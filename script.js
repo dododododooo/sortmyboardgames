@@ -49,7 +49,7 @@ async function loadGames() {
 function generateTagButtons() {
     createButtonsFromList("genre", "genre-container");
     createButtonsFromList("players", "players-container");
-    createButtonsFromList("complexity", "weight-container");
+    createButtonsFromList("weight", "weight-container");
     createButtonsFromList("time", "time-container");
     createButtonsFromList("type", "type-container");
 }
@@ -215,7 +215,7 @@ function showGameDetails(game) {
                     <div class="detail-stats">
                         <p><strong>Players:</strong> ${game.players_bgg || "N/A"}</p>
                         <p><strong>Play Time:</strong> ${game.time_bgg || "N/A"}</p>
-                        <p><strong>Weight:</strong> ${game.weight_bgg || "N/A"}</p>
+                        <p><strong>Complexity:</strong> ${game.weight_bgg || "N/A"}</p>
                         <p><strong>Type:</strong> ${game.type.join(", ")}</p>
                     </div>
                 </div>
