@@ -88,6 +88,11 @@ h1 {
    MAIN LAYOUT - THREE COLUMN FLEXBOX
 ============================================ */
 
+/* Layout spacing */
+.page-content {
+    padding: 20px 30px;
+}
+
 .layout {
     display: flex;
     gap: 30px;
