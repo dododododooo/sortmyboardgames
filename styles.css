@@ -148,17 +148,19 @@ h1 {
 
 .game-details-fixed {
     position: fixed;
-    top: 290px;       /* moved 200px lower */
-    right: 35px;
-    width: calc(45% - 200px); /* 200px narrower */
+    top: 240px;         /* moved UP 50px (was 290px) */
+    right: 135px;       /* shifted LEFT by 100px (was 35px) */
+    width: calc(45% - 50px); /* now 150px wider than before */
+
     max-height: 70vh;
     overflow-y: auto;
 
-    background: none !important; 
+    background: none !important;
     border: none !important;
     box-shadow: none !important;
     padding: 0 !important;
 }
+
 
 /* Inner card that stays visible */
 .game-detail-card {
