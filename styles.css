@@ -164,7 +164,7 @@ h1 {
 
 /* Inner card that stays visible */
 .game-detail-card {
-    background: #fff;
+    background: #f3f0ff;
     border: 1px solid #ddd;
     border-radius: 16px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.12);
