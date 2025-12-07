@@ -24,7 +24,6 @@ h1 {
     border-radius: 6px;
 }
 
-/* small label above filters */
 .filter-title {
     margin: 0 0 10px 0;
     font-weight: bold;
@@ -40,11 +39,11 @@ h1 {
     justify-content: space-between;
     align-items: center;
 
-    background: #3c355d; /* BGG-style purple */
+    background: #3c355d;
     color: white;
 
-    padding: 6px 18px;   /* <<— much smaller padding */
-    height: 48px;        /* consistent bar height */
+    padding: 6px 18px;
+    height: 48px;
 
     position: sticky;
     top: 0;
@@ -52,7 +51,6 @@ h1 {
 
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
-
 
 .header-left {
     display: flex;
@@ -72,10 +70,10 @@ h1 {
 }
 
 .header-btn {
-    background: #51487a; /* subtle contrasting purple */
+    background: #51487a;
     color: white;
     border: none;
-    padding: 6px 12px;   /* tighter button padding */
+    padding: 6px 12px;
     border-radius: 4px;
     font-size: 14px;
     cursor: pointer;
@@ -86,13 +84,8 @@ h1 {
 }
 
 /* ============================================
-   MAIN LAYOUT - THREE COLUMN FLEXBOX
+   MAIN LAYOUT
 ============================================ */
-
-/* Layout spacing */
-.page-content {
-    padding: 20px 30px;
-}
 
 .layout {
     display: flex;
@@ -100,9 +93,13 @@ h1 {
     width: 100%;
     max-width: 100%;
     align-items: flex-start;
+
+    padding-left: 20px;   /* restore left padding after header reset */
 }
 
-/* =========== SIDEBAR =========== */
+/* ============================================
+   SIDEBAR
+============================================ */
 
 .sidebar {
     width: 240px;
@@ -110,7 +107,6 @@ h1 {
     padding-right: 20px;
 }
 
-/* clear filters button */
 .clear-btn {
     display: inline-block;
     margin: 5px 0 15px 0;
@@ -126,10 +122,13 @@ h1 {
     background: #ddd;
 }
 
-/* =========== GAME LIST (MIDDLE COLUMN) =========== */
+/* ============================================
+   GAME LIST (CENTER COLUMN)
+============================================ */
 
 .main-content {
     flex: 1.2;
+    margin-right: 48%;  /* prevents overlap under fixed panel */
 }
 
 #game-list {
@@ -149,44 +148,38 @@ h1 {
 }
 
 /* ============================================
-   GAME DETAILS PANEL (RIGHT COLUMN)
+   FIXED GAME DETAILS PANEL (RIGHT SIDE)
 ============================================ */
 
-.game-details {
+#game-details {
+    /* remove old styling */
+    background: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+
+.game-details-fixed {
     position: fixed;
-    top: 90px;          /* keeps it under the header */
-    right: 35px;        /* spacing from right edge */
-    width: 45%;         /* width of panel */
-    max-height: 80vh;
+    top: 90px;       /* sits under header */
+    right: 30px;     /* spacing from window right */
+    bottom: 30px;    /* spacing from window bottom */
+    left: 650px;     /* <<< THIS defines the left boundary (your red box) */
     overflow-y: auto;
 
     background: white;
-    border-radius: 12px;
-    padding: 24px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
-
-.main-content {
-    margin-right: 50%;  /* ensures list doesn't hide under panel */
-}
-
 
 /* ============================================
-   GAME DETAIL CARD
+   GAME DETAIL CARD CONTENT
 ============================================ */
 
 .game-detail-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 16px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.12);
-
     width: 100%;
-    max-width: 1200px;
     box-sizing: border-box;
-    min-height: 500px;
-    padding: 50px;
-    transform: scale(1.05);
 }
 
 .detail-header {
@@ -194,10 +187,6 @@ h1 {
     gap: 30px;
     align-items: flex-start;
 }
-
-/* ============================================
-   GAME COVER IMAGE
-============================================ */
 
 .detail-thumb {
     width: 260px;
@@ -207,27 +196,19 @@ h1 {
     border: 1px solid #aaa;
 }
 
-/* ============================================
-   TEXT SCALING
-============================================ */
-
 .game-detail-card h2 {
     font-size: 28px;
     margin: 0 0 12px;
 }
 
-.detail-stats p {
-    margin: 8px 0;
-    font-size: 20px;
-}
-
+.detail-stats p,
 .description-text {
     margin: 8px 0;
     font-size: 20px;
 }
 
 /* ============================================
-   TAGS
+   TAG STYLING
 ============================================ */
 
 .detail-tags {
@@ -246,7 +227,7 @@ h1 {
 }
 
 /* ============================================
-   COLLAPSIBLE FILTER SECTIONS
+   COLLAPSIBLE FILTERS
 ============================================ */
 
 .filter-category {
@@ -295,7 +276,6 @@ h1 {
     margin-right: 8px;
 }
 
-/* Vertically stack tag checkboxes */
 #genre-container,
 #players-container,
 #weight-container,
