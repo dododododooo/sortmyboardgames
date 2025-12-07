@@ -49,7 +49,7 @@ async function loadGames() {
 function generateTagButtons() {
     createButtonsFromList("genre", "genre-container");
     createButtonsFromList("players", "players-container");
-    createButtonsFromList("weight", "weight-container");
+    createButtonsFromList("complexity", "weight-container");
     createButtonsFromList("time", "time-container");
     createButtonsFromList("type", "type-container");
 }
